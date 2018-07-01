@@ -1,17 +1,23 @@
 .cv-splash {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
-    object-fit: cover;
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-splash div {
+    width: 100%;
 }
 
 .cv-splash img {
-    width: 100%;
-    position: absolute;
+    /* width: 100%; */
+    /* position: absolute;
     top: -100px;
     overflow: hidden;
-    object-fit: cover;
+    object-fit: cover; */
+    /* width: 50%; */
 }
 
 .cv-education {
