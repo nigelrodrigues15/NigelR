@@ -19,14 +19,15 @@ class CV extends React.Component {
   render() {
     return <div className="cv cv-expand">
         <div className="cv-splash">
-        <img src="./images/Person2.svg" alt=""/>
+        {/* <img src="./images/Person4.svg" alt=""/> */}
         <Particles params={{
           fps_limit: 28, particles: {
             number: { value: 160, density: { enable: false, value_area: 1500 } }, line_linked: {
               enable: true,
               distance: 30,
+              color: "#000000",
               opacity: 1
-            }, color: { value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"] }, line_linked: { enable: true, opacity: 0.4, distance: 150, width: 1 },size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "bubble" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, polygon: { enable: true, type: "inside", move: { radius: 10 }, url: "./images/Person2.svg", draw: { enable: true, stroke: { color: "black" } } }, retina_detect: false }} />
+            }, color: { value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"] }, line_linked: { enable: true, opacity: 0.4, distance: 150, width: 1 },size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "bubble" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, polygon: { enable: true, type: "outside", move: { radius: 10 }, url: "./images/Person3.svg", draw: { enable: true, stroke: { color: "black" } } }, retina_detect: false }} />
         </div>
         <div className="cv-education">
           <h1>Education</h1>
