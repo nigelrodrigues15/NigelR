@@ -3,6 +3,7 @@
     height: 100vh;
     overflow: hidden;
     object-fit: cover;
+    background: black;
 }
 
 .cv-splash img {
@@ -84,7 +85,7 @@
 }
 
 .cv-expand {
-    background: black;
-    width: 50vw;
-    height: 50vh;
+    /* background: black; */
+    /* width: 50vw;
+    height: 50vh; */
 }
