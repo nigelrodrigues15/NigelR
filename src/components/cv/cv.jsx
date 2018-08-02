@@ -3,6 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import Particles from "react-particles-js";
 
 class CV extends React.Component {
   constructor(props) {
@@ -17,7 +18,17 @@ class CV extends React.Component {
 
   render() {
     return <div className="cv cv-expand">
-       <div className="cv-splash"><img src="./images/PersonStare.jpg" alt=""/></div>
+        <div className="cv-splash">
+        <Particles params={{
+          particles: { number: { value: 160, density: { enable: true, value_area: 1500 } }, color: { value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"] }, line_linked: { enable: false, opacity: 0.4, distance: 150, width: 1 }, move: { random: true, speed: 1, direction: "left", out_mode: "out" }, size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "bubble" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, polygon: {
+            enable: true,
+            type: 'inside',
+            move: {
+              radius: 10
+            },
+            url: './images/Person3.svg'
+          }, retina_detect: false }} />
+        </div>
         <div className="cv-education">
           <h1>Education</h1>
           <p>
