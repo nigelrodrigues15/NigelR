@@ -19,7 +19,7 @@ class CV extends React.Component {
   render() {
     return <div className="cv cv-expand">
         <div className="cv-splash">
-        <img src="./images/Person2" alt=""/>
+        <img src="./images/Person2.svg" alt=""/>
         <Particles params={{
           fps_limit: 28, particles: {
             number: { value: 160, density: { enable: false, value_area: 1500 } }, line_linked: {
