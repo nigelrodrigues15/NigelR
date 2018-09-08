@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 import Particles from "react-particles-js";
 import Typed from "react-typed";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIgloo } from "@fortawesome/free-solid-svg-icons";
+import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 
 class Landing extends React.Component {
 
@@ -23,7 +23,7 @@ class Landing extends React.Component {
           </div>
           <div className="greeting">
             <h1>
-              <Typed showCursor={false} strings={[`Hoello, ${this.props.match.params.name ? this.props.match.params.name + "!" : ""}`]} typeSpeed={40} />
+              <Typed showCursor={false} strings={[`Hello, ${this.props.match.params.name ? this.props.match.params.name + "!" : ""}`]} typeSpeed={40} />
             </h1>
           </div>
           <br />
@@ -34,10 +34,13 @@ class Landing extends React.Component {
           </div>
           <br />
           <br />
-        <FontAwesomeIcon icon={faIgloo } />
+          <Link to="/cv">
+            <div className="landing-cv">
+              <FontAwesomeIcon icon={faUserGraduate} />
+            </div>
+          </Link>
           {/* Options go here */}
         </div>
-        
       </div>;
 
   };
