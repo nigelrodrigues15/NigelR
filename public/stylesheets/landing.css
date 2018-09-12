@@ -23,7 +23,8 @@
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    background: rgb(30, 58, 61) url(../images/themountainmirror.png) bottom left;
+    background: linear-gradient( rgb(0, 0, 0), rgb(30, 58, 61));
+    background: rgba(30, 58, 61, 0.3) url(../images/themountainmirror.png) bottom left;
     /* background-repeat: no-repeat; */
     background-repeat: repeat-x;
     background-size: 100vw auto;
