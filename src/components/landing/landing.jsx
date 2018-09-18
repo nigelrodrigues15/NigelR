@@ -13,7 +13,6 @@ class Landing extends React.Component {
   };
 
   render () {
-// let greeting = 
     return <div className="splash">
         <div className="landing">
           <div className="landing-gradient">
@@ -46,7 +45,7 @@ class Landing extends React.Component {
 export default withRouter(Landing);
 
 // options
-<div className="options">
+{/* <div className="options">
   <Link to="/cv">
     <Button className="material-button" variant="outlined" id="research-button">
       <div className="cv">CV</div>
@@ -67,14 +66,12 @@ export default withRouter(Landing);
       <div className="about">About</div>
     </Button>
   </Link>
-  {/* <Link to="/travel"> */}
   <a href="https://www.google.com/maps/d/u/0/embed?mid=1TLSTtMiDihATBZZQVluwUtVPnoA&ll=32.78099493245676%2C-9.632912300000044&z=2">
     <Button className="material-button" variant="outlined" id="research-button">
       <div className="travel">Travel</div>
     </Button>
   </a>
-  {/* </Link> */}
-</div>
+</div> */}
 
 // more optinos
 {/* <div className="landing-options">
