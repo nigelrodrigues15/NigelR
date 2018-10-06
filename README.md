@@ -9,3 +9,4 @@ File structure borrowed from Dragonfly project. `package.json` will likely be th
 
 ## Future works
 ### Site location
+www.nigelr.ca
