@@ -176,7 +176,7 @@
 }
 
 a {
-    text-decoration: none !important;
+    color: inherit !important;
 }
 
 .landing-options {
@@ -235,4 +235,20 @@ a {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.landing-cv {
+    border: 1px solid white;
+    font-size: 18pt;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.landing-cv:hover {
+    color: black;
+    background: white;
 }
