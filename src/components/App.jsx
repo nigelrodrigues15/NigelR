@@ -6,8 +6,6 @@ import PhotosContainer from "./photos/photos_container";
 import ProjectsContainer from "./projects/projects_container";
 import AboutContainer from "./about/about_container";
 import TravelContainer from "./travel/travel_container";
-import CompanyContainer from "./company/company_container";
-import ResearchContainer from "./research/research_container";
 
 const App = () => (
     <div>
@@ -20,8 +18,6 @@ const App = () => (
         <Route exact path="/projects" component={ProjectsContainer} />
         <Route exact path="/aboutme" component={AboutContainer} />
         <Route exact path="/travel" component={TravelContainer} />
-        <Route exact path="/company/:companyTik" component={CompanyContainer} />
-        <Route exact path="/research/:companyTik" component={ResearchContainer} />
       </Switch>
     </div>
   );
