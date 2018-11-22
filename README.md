@@ -15,3 +15,5 @@ www.nigelr.ca
 ### Content
 - [ ] Contact Information
 - [ ] Curriculum Vitae
+- [ ] Photography
+
