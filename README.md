@@ -13,4 +13,4 @@ File structure borrowed from Dragonfly project. `package.json` will likely be th
 www.nigelr.ca
 
 ### Content
-* Contact Information
+[-] Contact Information
