@@ -16,4 +16,4 @@ www.nigelr.ca
 - [ ] Contact Information
 - [ ] Curriculum Vitae
 - [ ] Photography
-
+- [ ] Projects
