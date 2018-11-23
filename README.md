@@ -13,7 +13,7 @@ File structure borrowed from Dragonfly project. `package.json` will likely be th
 www.nigelr.ca
 
 ### Content
-
+- [ ] Landing Page
 - [ ] Curriculum Vitae
 - [ ] Photography
 - [ ] Projects
