@@ -44,15 +44,21 @@ class CV extends React.Component {
         </div>
         <div className="cv-competitions">
           <h1>Competitions</h1>
-                <p>Western Engineering Competition 
-                  Participant |Banff, Canada |Jan 2018
-                  UAEC Senior Design Competition (VEX Robotics)
-                  1st Place |Edmonton, Canada |Oct 2017
-                  Microsoft Coding Competition
-                  2nd Place |Edmonton, Canada |Sept 2017
-                  ENCMP Programming Competition
-                  2nd Place |Edmonton, Canada |Mar 2014
-                </p>
+          <p>
+            Western Engineering Competition Participant |Banff, Canada |Jan
+            2018 UAEC Senior Design Competition (VEX Robotics) 1st Place
+            |Edmonton, Canada |Oct 2017 Microsoft Coding Competition 2nd
+            Place |Edmonton, Canada |Sept 2017 ENCMP Programming Competition
+            2nd Place |Edmonton, Canada |Mar 2014
+          </p>
+        </div>
+        <div className="cv-volunteering">
+          <h1>Volunteering</h1>
+          <p>
+            University of Alberta Engineering Student Society |2014-2016
+            Misericordia Community Hospital Creative Care & Book Cart
+            |2009-2014 YMCA Assistant Swim Instructor |2010
+          </p>
         </div>
       </div>;
   }
