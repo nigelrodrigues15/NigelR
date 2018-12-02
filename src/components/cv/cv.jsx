@@ -42,7 +42,18 @@ class CV extends React.Component {
             SCRUM
           </p>
         </div>
-        
+        <div className="cv-competitions">
+          <h1>Competitions</h1>
+                <p>Western Engineering Competition 
+                  Participant |Banff, Canada |Jan 2018
+                  UAEC Senior Design Competition (VEX Robotics)
+                  1st Place |Edmonton, Canada |Oct 2017
+                  Microsoft Coding Competition
+                  2nd Place |Edmonton, Canada |Sept 2017
+                  ENCMP Programming Competition
+                  2nd Place |Edmonton, Canada |Mar 2014
+                </p>
+        </div>
       </div>;
   }
 }
