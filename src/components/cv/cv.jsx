@@ -61,6 +61,7 @@ class CV extends React.Component {
           </p>
         </div>
         <div className="cv-hobbies">
+          fvffffffffffffffffff
           <h1>Hobbies (possibly split into sports)</h1>
           <p>
             Hobbies High School Senior Soccer & Curling Team Community
@@ -71,9 +72,9 @@ class CV extends React.Component {
         <div className="cv-otherinfo">
           <h1>Other Information</h1>
           <p>
-            Hobbies High School Senior Soccer & Curling Team Community
-            Basketball & Badminton Team Other Sports: golfing, skiing,
-            surfing Other Hobbies: Photography, Travel
+            Advanced Class 5 (Non-GDL) driver’s license with access to a
+            vehicle ACSA CSTS-09 – Safety Course Certification (WHMIS, First
+            Aid, PPE, etc.) Youth Toastmaster’s certificate
           </p>
         </div>
       </div>;
