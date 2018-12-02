@@ -144,18 +144,18 @@ class CV extends React.Component {
         <div className="cv-hackathons">
           <h1>Hackathons</h1>
           <p>
-            EcoCar, Engineering Club Aeroshell Lead | September 2014 to
-            present • Designed the aeroshell body for the prototype class
-            vehicle based on competition performance specification and
-            guidelines for safety • Engineering analysis on vehicle
-            performance including FEA of loading scenarios on the composite
-            carbon fibre body • Designing an electronic steering mechanism
-            for be used in the autonomous driving of the vehicle • Mentoring
-            new members in designing and analyzing the frame and firewall to
-            ensure safety of the driver • Aided in various aspects of the
-            construction and design of a zero-emission vehicle, to compete
-            in the Shell Eco marathon efficiency race for sustainable
-            transport
+            Avigilon Hackathon Participant |Vancouver, Canada |July 2017 •
+            Created an adapter that can add pan and tilt functionality to
+            any camera • Used 3D printing for the frame, controlled stepper
+            motors with an Arduino and Bluetooth module via an android app
+            Global AI Hackathon Participant |Vancouver, Canada |June 2017 •
+            Program outputs the average emotion of a particular event or
+            hashtag using Microsoft Cognitive Services Emotion API along
+            with Instagram's API Techstars Hackathon 2nd Place |California,
+            USA |July 2017 Created an website to provide live and historical
+            data on publicly traded companies NASA space apps Hackathon
+            participant |California, USA |July 2017 Used satellite data for
+            data visualization to catered to individuals in non-stem fields.
           </p>
         </div>
       </div>;
