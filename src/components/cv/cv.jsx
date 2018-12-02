@@ -60,6 +60,14 @@ class CV extends React.Component {
             |2009-2014 YMCA Assistant Swim Instructor |2010
           </p>
         </div>
+        <div className="cv-hobbies">
+          <h1>Hobbies (possibly split into sports)</h1>
+          <p>
+            Hobbies High School Senior Soccer & Curling Team Community
+            Basketball & Badminton Team Other Sports: golfing, skiing,
+            surfing Other Hobbies: Photography, Travel
+          </p>
+        </div>
       </div>;
   }
 }
