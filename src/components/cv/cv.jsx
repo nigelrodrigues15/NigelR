@@ -127,18 +127,18 @@ class CV extends React.Component {
         <div className="cv-projects">
           <h1>Projects</h1>
           <p>
-            EcoCar, Engineering Club Aeroshell Lead | September 2014 to
-            present • Designed the aeroshell body for the prototype class
-            vehicle based on competition performance specification and
-            guidelines for safety • Engineering analysis on vehicle
-            performance including FEA of loading scenarios on the composite
-            carbon fibre body • Designing an electronic steering mechanism
-            for be used in the autonomous driving of the vehicle • Mentoring
-            new members in designing and analyzing the frame and firewall to
-            ensure safety of the driver • Aided in various aspects of the
-            construction and design of a zero-emission vehicle, to compete
-            in the Shell Eco marathon efficiency race for sustainable
-            transport
+            Canadian Stratospheric Balloon Experiment Challenge Design and
+            test a scientific experiment on board a High-Altitude Balloon by
+            the Canadian Space Agency Ontario, Canada |Ongoing • Designing
+            an experiment to measure how dispersing Calcite aerosol into the
+            stratosphere, can mitigate climate change by altering the
+            Earth’s albedo Reduced Gravity Experiment Design Challenge
+            Perform an experiment on the National Research Council's
+            Falcon-20 aircraft to simulate reduced gravity conditions
+            Ottawa, Canada |August 2017 • Designed an experiment to study
+            how droplets freeze in microgravity to better understand its
+            nanomaterial properties and crystallization • One of four
+            Canadian teams chosen to test this experiment
           </p>
         </div>
         <div className="cv-hackathons">
