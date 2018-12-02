@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Redirect, Switch, Link, HashRouter } from "react-router-dom";
-import Landing from "./landing/landing";
+import Landing from "./landing/landing_container";
 import CVContainer from "./cv/cv_container";
 import PhotosContainer from "./photos/photos_container";
 import ProjectsContainer from "./projects/projects_container";
@@ -14,6 +14,7 @@ const App = () => (
   
       <Switch>
         <Route exact path="/" component={Landing} />
+        <Route exact path="/q/:name" component={Landing} />
         <Route exact path="/cv" component={CVContainer} />
         <Route exact path="/photography" component={PhotosContainer} />
         <Route exact path="/projects" component={ProjectsContainer} />
