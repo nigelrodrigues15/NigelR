@@ -18,7 +18,7 @@ class CV extends React.Component {
   render() {
     return <div className="cv">
         <h1>This is my CV</h1>
-        <div>
+        <div className="cv-education">
           <h1>Education</h1>
           <p>
             • MEng, Mechanical and Mechatronics Engineering, Graduate
@@ -30,6 +30,19 @@ class CV extends React.Component {
             to prevent stranded skiers.
           </p>
         </div>
+        <div className="cv-skills">
+          <h1>Computer Skills</h1>
+          <p>
+            Design SolidWorks (CAD/Simulation) Analysis Ansys (FEA & CFD),
+            PTC Mathcad, SMath Hardware Integration NI LabWindows/CVI
+            (similar to LabVIEW) Microsoft Office Suite: Word, Excel,
+            PowerPoint Programming Languages MATLAB, R (Statistics), Ruby,
+            JavaScript, SQL Proficient in HTML, Python and C Product
+            Lifecycle Management: Agile Issue and Project Tracking: JIRA,
+            SCRUM
+          </p>
+        </div>
+        
       </div>;
   }
 }
