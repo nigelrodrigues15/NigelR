@@ -77,6 +77,54 @@ class CV extends React.Component {
             Aid, PPE, etc.) Youth Toastmaster’s certificate
           </p>
         </div>
+        <div className="cv-experience">
+          <h1>Experience</h1>
+          <p>
+            Avigilon Corporation Mechanical Designer Co-op |Vancouver,
+            Canada |Jan - Aug 2017 • Recommended components based on
+            performance and cost testing, resulting in a total cost saving
+            of ~$150k/year • Performed First Article Inspection (FAI/FPI) on
+            injected molded plastics and die cast aluminum to determine if
+            parts have the correct dimensional tolerance and suitable
+            surface finish for production • Received RMA products and
+            performed root cause analysis (RCA) to diagnose and fix issues •
+            Conducted thermal, impact, water and stress tests on cameras to
+            determine performance of components and possible improvements •
+            Designed, fabricated and tested manufacturing jigs and fixtures
+            • Created extensive documentation for the assembly & operation
+            of the jig • Communicated with manufacturers locally and
+            overseas to modify and update OEM parts and assemblies of orders
+            around 25k/year Institute of Design, Robotics and Optimization
+            Research Co-op |Leeds, United Kingdom |May - Aug 2016 •
+            Designed, prototyped and tested a deployment mechanism for a
+            drone (octocopter) to release autonomous robots • Mechanism
+            designed to release multiple robots at different times using a
+            single servo motor to optimize weight and power consumption
+            Orthodontic Biomechanics Development Group Research Co-op
+            |Edmonton, Canada |May - Aug 2015 • Researched, designed and
+            assembled a dual camera optical apparatus to measure the 3D
+            deformation in orthodontics • Purchased equipment and
+            accessories based on specification and budget • Coded in
+            LabWindows/CVI to communicate between hardware components
+          </p>
+        </div>
+        <div className="cv-clubs">
+          <h1>Clubs</h1>
+          <p>
+            EcoCar, Engineering Club Aeroshell Lead | September 2014 to
+            present • Designed the aeroshell body for the prototype class
+            vehicle based on competition performance specification and
+            guidelines for safety • Engineering analysis on vehicle
+            performance including FEA of loading scenarios on the composite
+            carbon fibre body • Designing an electronic steering mechanism
+            for be used in the autonomous driving of the vehicle • Mentoring
+            new members in designing and analyzing the frame and firewall to
+            ensure safety of the driver • Aided in various aspects of the
+            construction and design of a zero-emission vehicle, to compete
+            in the Shell Eco marathon efficiency race for sustainable
+            transport
+          </p>
+        </div>
       </div>;
   }
 }
