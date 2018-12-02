@@ -11,16 +11,16 @@ const landing = () => {
         <Link to="/cv">
           <div className="cv">CV</div>
         </Link>
-        <Link to="/cv">
+        <Link to="/photography">
           <div className="photography">Photography</div>
         </Link>
-        <Link to="/cv" >
+        <Link to="/projects" >
           <div className="projects">Projects</div>
         </Link>
-        <Link to="/cv" >
+        <Link to="/aboutme" >
           <div className="about">About</div>
         </Link>
-        <Link to="/cv" >
+        <Link to="/travel" >
           <div className="travel">Travel</div>
         </Link >
       </div>
