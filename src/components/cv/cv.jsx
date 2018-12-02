@@ -61,7 +61,6 @@ class CV extends React.Component {
           </p>
         </div>
         <div className="cv-hobbies">
-          fvffffffffffffffffff
           <h1>Hobbies (possibly split into sports)</h1>
           <p>
             Hobbies High School Senior Soccer & Curling Team Community
@@ -110,6 +109,40 @@ class CV extends React.Component {
         </div>
         <div className="cv-clubs">
           <h1>Clubs</h1>
+          <p>
+            EcoCar, Engineering Club Aeroshell Lead | September 2014 to
+            present • Designed the aeroshell body for the prototype class
+            vehicle based on competition performance specification and
+            guidelines for safety • Engineering analysis on vehicle
+            performance including FEA of loading scenarios on the composite
+            carbon fibre body • Designing an electronic steering mechanism
+            for be used in the autonomous driving of the vehicle • Mentoring
+            new members in designing and analyzing the frame and firewall to
+            ensure safety of the driver • Aided in various aspects of the
+            construction and design of a zero-emission vehicle, to compete
+            in the Shell Eco marathon efficiency race for sustainable
+            transport
+          </p>
+        </div>
+        <div className="cv-projects">
+          <h1>Projects</h1>
+          <p>
+            EcoCar, Engineering Club Aeroshell Lead | September 2014 to
+            present • Designed the aeroshell body for the prototype class
+            vehicle based on competition performance specification and
+            guidelines for safety • Engineering analysis on vehicle
+            performance including FEA of loading scenarios on the composite
+            carbon fibre body • Designing an electronic steering mechanism
+            for be used in the autonomous driving of the vehicle • Mentoring
+            new members in designing and analyzing the frame and firewall to
+            ensure safety of the driver • Aided in various aspects of the
+            construction and design of a zero-emission vehicle, to compete
+            in the Shell Eco marathon efficiency race for sustainable
+            transport
+          </p>
+        </div>
+        <div className="cv-hackathons">
+          <h1>Hackathons</h1>
           <p>
             EcoCar, Engineering Club Aeroshell Lead | September 2014 to
             present • Designed the aeroshell body for the prototype class
