@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
-class CV extends React.Component {
+class Travel extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -24,4 +24,4 @@ class CV extends React.Component {
   }
 }
 
-export default withRouter(CV);
+export default withRouter(Travel);

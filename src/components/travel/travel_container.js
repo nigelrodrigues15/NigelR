@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import CV from "./cv";
+import Travel from "./travel";
 
 const mapStateToProps = (state, ownprops) => {
     return {
@@ -16,4 +16,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(CV);
+)(Travel);
