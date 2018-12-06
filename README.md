@@ -18,7 +18,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 **Day 2**: Personal CV
 
 - [ ] Education & Educational Awards
-- [ ] Recieve tweets from twitter in JSON format
+- [ ] Work Experience
 - [ ] Connect it to the form on the page
 - [ ] Display a few of the tweets on the webpage
 
