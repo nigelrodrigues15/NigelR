@@ -22,7 +22,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Connect it to the form on the page
 - [ ] Display a few of the tweets on the webpage
 
-**Day 3**: 
+**Day 3**: Projects
 
 - [ ] Learn how to use sentiment API
 - [ ] Learn how to use D3 library
