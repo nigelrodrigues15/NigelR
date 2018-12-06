@@ -46,4 +46,4 @@ www.nigelr.ca
 - [ ] Photography
 - [ ] Projects
 - [ ] Contact Information
-
+- [ ] Travel
