@@ -11,7 +11,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 **Day 1**: Landing Page
 
-- [ ] Create index.html and sample CSS file
+- [ ] Create rails backend and react frontend
 - [ ] Learn how to access the twitter API
 - [ ] Create a static dummy form on the webpage
 
