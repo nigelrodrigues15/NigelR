@@ -21,6 +21,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Work Experience
 - [ ] Extracirricular Projects (Links to Projects)
 - [ ] Student Groups/Clubs
+- [ ] Skills (Software)
 
 **Day 3**: Projects
 
