@@ -13,7 +13,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 - [ ] Create rails backend and react frontend
 - [ ] Minimalist frontpage with custom url query
-- [ ] Create a static dummy form on the webpage
+- [ ] Links to other pages in website
 
 **Day 2**: Personal CV
 
