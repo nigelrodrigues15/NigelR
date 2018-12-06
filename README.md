@@ -19,7 +19,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 - [ ] Education & Educational Awards
 - [ ] Work Experience
-- [ ] Extracirricular Projects
+- [ ] Extracirricular Projects (Links to Projects)
 - [ ] Student Groups/Clubs
 
 **Day 3**: Projects
