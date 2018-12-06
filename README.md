@@ -15,14 +15,14 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Learn how to access the twitter API
 - [ ] Create a static dummy form on the webpage
 
-**Day 2**: 
+**Day 2**: Personal CV
 
 - [ ] Access the twitter api
 - [ ] Recieve tweets from twitter in JSON format
 - [ ] Connect it to the form on the page
 - [ ] Display a few of the tweets on the webpage
 
-**Day 3**:
+**Day 3**: 
 
 - [ ] Learn how to use sentiment API
 - [ ] Learn how to use D3 library
