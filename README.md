@@ -23,6 +23,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Student Groups/Clubs
 - [ ] Skills (Software)
 - [ ] Programming Languages
+- [ ] Hobbies & Sports
 
 **Day 3**: Projects
 
