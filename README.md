@@ -12,7 +12,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 **Day 1**: Landing Page
 
 - [ ] Create rails backend and react frontend
-- [ ] Learn how to access the twitter API
+- [ ] Minimalist frontpage with custom url query
 - [ ] Create a static dummy form on the webpage
 
 **Day 2**: Personal CV
