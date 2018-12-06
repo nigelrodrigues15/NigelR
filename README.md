@@ -9,7 +9,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 ## Possible Implementation Timeline
 
-**Day 1**: 
+**Day 1**: Landing Page
 
 - [ ] Create index.html and sample CSS file
 - [ ] Learn how to access the twitter API
