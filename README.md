@@ -27,7 +27,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 **Day 3**: Projects
 
-- [ ] Learn how to use sentiment API
+- [ ] Glasses
 - [ ] Learn how to use D3 library
 - [ ] get resulting data from sentiment API
 
