@@ -27,7 +27,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 **Day 3**: Projects
 
-- [ ] Personal Website
+- [ ] Personal Website (Ruby/React)
 - [ ] Glasses
 - [ ] HABOO
 - [ ] Reduced Gravity Experiments
