@@ -27,6 +27,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 **Day 3**: Projects
 
+- [ ] HABOO
 - [ ] Glasses
 - [ ] HABOO
 - [ ] Reduced Gravity Experiments
