@@ -30,7 +30,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Glasses
 - [ ] HABOO
 - [ ] Reduced Gravity Experiments
-- [ ] HABOO
+- [ ] EcoCAr
 - [ ] get resulting data from sentiment API
 
 **Day 4**: Photography
