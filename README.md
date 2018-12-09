@@ -33,6 +33,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Reduced Gravity Experiments
 - [ ] EcoCar
 - [ ] Stocs
+- [ ] EcoCar
 - [ ] get resulting data from sentiment API
 
 **Day 4**: Photography
