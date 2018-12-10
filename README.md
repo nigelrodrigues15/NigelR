@@ -49,6 +49,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Portrait
 - [ ] City
 - [ ] NightScape
+- [ ] ME 360
 - [ ] Style the webpage
 
 
