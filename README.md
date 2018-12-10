@@ -40,6 +40,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] ME 260
 - [ ] ME 360
 - [ ] ME 460
+- [ ] ME 360
 - [ ] More...
 
 **Day 4**: Photography
