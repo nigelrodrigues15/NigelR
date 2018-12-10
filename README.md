@@ -47,6 +47,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 - [ ] Landscape
 - [ ] Portrait
+- [ ] ME 360
 - [ ] Style the webpage
 
 
