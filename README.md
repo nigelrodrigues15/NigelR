@@ -34,9 +34,11 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] EcoCar
 - [ ] Stocs
 - [ ] Sentey
+- [ ] Watchie
 - [ ] Hackathon's
-- [ ] Chrome Extensions
-- [ ] get resulting data from sentiment API
+- [ ] Chrome Extension's
+- [ ] Chrome Extension's
+- [ ] More...
 
 **Day 4**: Photography
 
