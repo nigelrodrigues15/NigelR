@@ -37,7 +37,8 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Watchie
 - [ ] Hackathon's
 - [ ] Chrome Extension's
-- [ ] Chrome Extension's
+- [ ] ME 260
+- [ ] ME 360
 - [ ] More...
 
 **Day 4**: Photography
