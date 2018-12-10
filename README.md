@@ -45,7 +45,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 **Day 4**: Photography
 
-- [ ] Landsc
+- [ ] Landscape
 - [ ] Style the webpage
 
 
