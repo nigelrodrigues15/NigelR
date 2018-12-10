@@ -35,6 +35,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Stocs
 - [ ] Sentey
 - [ ] Hackathon's
+- [ ] Chrome Extensions
 - [ ] get resulting data from sentiment API
 
 **Day 4**: Photography
