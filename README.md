@@ -45,8 +45,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 **Day 4**: Photography
 
-- [ ] Format the data from the sentiment API
-- [ ] Get a chart on the webpage
+- [ ] Landsc
 - [ ] Style the webpage
 
 
