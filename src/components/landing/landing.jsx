@@ -4,6 +4,7 @@ import Button from "@material-ui/core/Button";
 import Particles from "react-particles-js";
 import Typed from "react-typed";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faIgloo } from "@fortawesome/free-solid-svg-icons";
 
 class Landing extends React.Component {
 
@@ -13,39 +14,32 @@ class Landing extends React.Component {
 
   render () {
 // let greeting = 
-    return (
-<div className="splash">
-    <div className="landing">
-        <div className="landing-gradient">
-          <Particles params={{ particles: { number: { value: 160, density: { enable: true, value_area: 1500 } }, line_linked: { enable: false, opacity: 0.4, distance: 150, width: 1 }, move: { random: true, speed: 1, direction: "left", out_mode: "out" }, size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "grab" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, retina_detect: true }} />
+    return <div className="splash">
+        <div className="landing">
+          <div className="landing-gradient">
+            <Particles params={{ particles: { number: { value: 160, density: { enable: true, value_area: 1500 } }, line_linked: { enable: false, opacity: 0.4, distance: 150, width: 1 }, move: { random: true, speed: 1, direction: "left", out_mode: "out" }, size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "grab" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, retina_detect: true }} />
+          </div>
+          <div className="landing-background">
+            {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
+          </div>
+          <div className="greeting">
+            <h1>
+              <Typed showCursor={false} strings={[`Hoello, ${this.props.match.params.name ? this.props.match.params.name + "!" : ""}`]} typeSpeed={40} />
+            </h1>
+          </div>
+          <br />
+          <div className="name">
+            <h1>
+              <Typed strings={[`I'm Nigel Rodrigues`]} typeSpeed={40} />
+            </h1>
+          </div>
+          <br />
+          <br />
+        <FontAwesomeIcon icon={faIgloo } />
+          {/* Options go here */}
         </div>
-        <div className="landing-background">
-          {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
-        </div>
-        <div className="greeting">
-          <h1>
-            <Typed showCursor={false} strings={[`Hello, ${this.props.match.params.name ? this.props.match.params.name + "!" : ""}`]} typeSpeed={40} />
-          </h1>
-        </div>
-        <br />
-        <div className="name">
-          <h1>
-            <Typed strings={[`I'm Nigel Rodrigues`]} typeSpeed={40} />
-          </h1>
-        </div>
-        <br />
-        <br />
-          <FontAwesomeIcon icon="igloo" />
-{/* Options go here */}
-      </div>
-      <div className="landing-options">
-        <div className="landing-cv"><img src="./images/BoatBridge.jpg" alt=""/></div>
-        <div className="landing-projects"><img src="./images/BrassGuitar.jpg" alt="" /></div>
-        <div className="landing-photo"><img src="./images/BoatBridge.jpg" alt="" /></div>
-        <div className="landing-travel"><img src="./images/Bridge.jpg" alt="" /></div>
-      </div>
-      </div>
-    );
+        
+      </div>;
 
   };
 }
@@ -81,3 +75,19 @@ export default withRouter(Landing);
   </a>
   {/* </Link> */}
 </div>
+
+// more optinos
+{/* <div className="landing-options">
+  <div className="landing-cv">
+    <img src="./images/BoatBridge.jpg" alt="" />
+  </div>
+  <div className="landing-projects">
+    <img src="./images/BrassGuitar.jpg" alt="" />
+  </div>
+  <div className="landing-photo">
+    <img src="./images/BoatBridge.jpg" alt="" />
+  </div>
+  <div className="landing-travel">
+    <img src="./images/Bridge.jpg" alt="" />
+  </div>
+</div> */}
