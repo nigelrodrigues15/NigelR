@@ -3,6 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Particles from "react-particles-js";
 import Typed from "react-typed";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Landing extends React.Component {
 
@@ -34,6 +35,7 @@ class Landing extends React.Component {
         </div>
         <br />
         <br />
+          <FontAwesomeIcon icon="igloo" />
 {/* Options go here */}
       </div>
       <div className="landing-options">
