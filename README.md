@@ -50,6 +50,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] City
 - [ ] NightScape
 - [ ] Long Exposure
+- [ ] More...
 - [ ] More from Instagram
 
 
