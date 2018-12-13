@@ -50,7 +50,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] City
 - [ ] NightScape
 - [ ] Long Exposure
-- [ ] More...
+- [ ] Black and White
 - [ ] Objects
 - [ ] Rooms
 - [ ] Color Grading Styles
