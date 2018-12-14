@@ -22,7 +22,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Extracirricular Projects (Links to Projects)
 - [ ] Student Groups/Clubs
 - [ ] Competitions
-- [ ] 
+- [ ] Hackathons
 - [ ] Skills (Software)
 - [ ] Programming Languages
 - [ ] Hobbies & Sports
