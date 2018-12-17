@@ -62,7 +62,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 ## Wireframes
 
 ### Landing Page
-
+### Landing Page
 
 ## Future works
 
