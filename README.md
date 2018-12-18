@@ -64,6 +64,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 ### Landing Page
 ### CV
 ### Photography
+### Projects
 
 ## Future works
 
