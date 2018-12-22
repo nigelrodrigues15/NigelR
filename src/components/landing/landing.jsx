@@ -13,7 +13,7 @@ const landing = () => {
         <div className="dfblk"></div>
         <div className="dfbl"></div>
         </div>
-          <h1>Dragonfly</h1>
+          <h1>Nigel Rodrigues</h1>
         </div>
         <div className="landing-navbar-right">
           <h3 className="home">
