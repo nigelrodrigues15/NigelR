@@ -8,7 +8,7 @@ const landing = () => {
       <div className="name">Nigel Rodrigues</div>
       <br />
       <div className="options">
-        <Link to="/"><div className="cv">CV</div></Link>
+        <Link to="/cv"><div className="cv">CV</div></Link>
         <div className="photography">Photography</div>
         <div className="projects">Projects</div>
         <div className="about">About</div>
