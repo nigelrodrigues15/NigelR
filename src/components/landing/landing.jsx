@@ -2,21 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const landing = () => {
-  return (
-    <div className="landing">
+  return <div className="landing">
       <div className="greeting">Hello,</div>
-      <br/>
+      <br />
       <div className="name">Nigel Rodrigues</div>
-      <br/>
+      <br />
       <div className="options">
-        <div>CV</div>
-        <div>Photography</div>
-        <div>Projects</div>
-        <div>About</div>
-        <div>Travel</div>
+        <Link to="/"><div className="cv">CV</div></Link>
+        <div className="photography">Photography</div>
+        <div className="projects">Projects</div>
+        <div className="about">About</div>
+        <div className="travel">Travel</div>
       </div>
-    </div>
-  );
+    </div>;
 };
 
 export default landing;
