@@ -5,7 +5,9 @@ const landing = () => {
   return (
     <div className="landing">
       <div className="greeting">Hello,</div>
+      <br/>
       <div className="name">Nigel Rodrigues</div>
+      <br/>
       <div className="options">
         <div>CV</div>
         <div>Photography</div>
