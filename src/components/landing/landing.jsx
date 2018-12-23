@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 const landing = () => {
   return (
     <div className="landing">
-Hello
-       
+      <div>Hello,</div>
+      <div>Nigel Rodrigues</div>
+      <div>Options</div>
     </div>
   );
 };
