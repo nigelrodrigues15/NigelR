@@ -17,9 +17,9 @@ class Photos extends React.Component {
 
   render() {
     return (
-      <div className="cv">
-        This is my CV
-      </div>
+    <div className="photography">
+        <h1>This is my Photography</h1>
+    </div>
     );
   }
 }
