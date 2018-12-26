@@ -16,11 +16,9 @@ class CV extends React.Component {
   }
 
   render() {
-    return (
-      <div className="cv">
-        This is my CV
-      </div>
-    );
+    return <div className="cv">
+        <h1>This is my CV</h1>
+      </div>;
   }
 }
 
