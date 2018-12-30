@@ -68,6 +68,14 @@ class CV extends React.Component {
             surfing Other Hobbies: Photography, Travel
           </p>
         </div>
+        <div className="cv-otherinfo">
+          <h1>Other Information</h1>
+          <p>
+            Hobbies High School Senior Soccer & Curling Team Community
+            Basketball & Badminton Team Other Sports: golfing, skiing,
+            surfing Other Hobbies: Photography, Travel
+          </p>
+        </div>
       </div>;
   }
 }
