@@ -1,7 +1,7 @@
 # Future personal website
 
 ## Currently a work in progress
-File structure borrowed from the Dragonfly project. `package.json` will likely be the same, but otherwise, all other files will be removed and replaced with relevant files. Current setup is a React FrontEnd with no backend. Skeleton site is in place.
+File structure borrowed from the Dragonfly project. `package.json` will likely be the same, but otherwise, all other files will be removed and replaced with relevant files. Current setup is a React FrontEnd with no backend. A skeleton site is in place.
 
 ## Previous personal website
 * Located at [www.ualberta.ca/~nigel1](www.ualberta.ca/~nigel1)
