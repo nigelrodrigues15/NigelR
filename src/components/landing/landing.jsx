@@ -14,14 +14,14 @@ class Landing extends React.Component {
         <div className="landing-background">
           {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
         </div>
-        <div className="greeting">Hello,</div>
+        <div className="greeting"><h1>Hello,</h1></div>
         <h1>
           {this.props.match.params.name
             ? this.props.match.params.name
             : null}
         </h1>
         <br />
-        <div className="name">Nigel Rodrigues</div>
+        <div className="name"><h1>I'm  Nigel Rodrigues</h1></div>
         <br />
         <div className="options">
           <Link to="/cv">
