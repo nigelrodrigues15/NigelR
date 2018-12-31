@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import Button from "@material-ui/core/Button";
 
 class Landing extends React.Component {
 
@@ -9,33 +10,47 @@ class Landing extends React.Component {
 
   render () {
 
-    return(
-      <div className="landing">
-        <div className="landing-background"><img src="./images/BrassGuitar.jpg" alt=""/></div>
+    return <div className="landing">
+        <div className="landing-background">
+          <img src="./images/BrassGuitar.jpg" alt="" />
+        </div>
         <div className="greeting">Hello,</div>
-        <h1>{this.props.match.params.name ? this.props.match.params.name : null}</h1>
+        <h1>
+          {this.props.match.params.name
+            ? this.props.match.params.name
+            : null}
+        </h1>
         <br />
         <div className="name">Nigel Rodrigues</div>
         <br />
         <div className="options">
           <Link to="/cv">
-            <div className="cv">CV</div>
+            <Button className="material-button" variant="outlined" id="research-button">
+              <div className="cv">CV</div>
+            </Button>
           </Link>
           <Link to="/photography">
-            <div className="photography">Photography</div>
+            <Button className="material-button" variant="outlined" id="research-button">
+              <div className="photography">Photography</div>
+            </Button>
           </Link>
-          <Link to="/projects" >
-            <div className="projects">Projects</div>
+          <Link to="/projects">
+          <Button className="material-button"variant="outlined" id="research-button">
+              <div className="projects">Projects</div>
+            </Button>
           </Link>
-          <Link to="/aboutme" >
-            <div className="about">About</div>
+          <Link to="/aboutme">
+          <Button className="material-button"variant="outlined" id="research-button">
+              <div className="about">About</div>
+            </Button>
           </Link>
-          <Link to="/travel" >
-            <div className="travel">Travel</div>
-          </Link >
+          <Link to="/travel">
+          <Button className="material-button"variant="outlined" id="research-button">
+              <div className="travel">Travel</div>
+            </Button>
+          </Link>
         </div>
-      </div>
-    );
+      </div>;
   };
 }
 export default withRouter(Landing);
