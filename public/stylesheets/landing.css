@@ -36,3 +36,7 @@
     text-decoration: none !important;
     /* background-color: aqua; */
 }
+
+a {
+    text-decoration: none !important;
+}
