@@ -13,7 +13,9 @@
     height: 100%;
     position: absolute;
     z-index: -1;
-    background-image: url(./images/BrassGuitar.jpg)
+    background: url(../images/BrassGuitar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
 }
 
 .material-button {
