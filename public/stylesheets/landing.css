@@ -13,17 +13,18 @@
     height: 100%;
     position: absolute;
     z-index: -1;
+    background-image: url(./images/BrassGuitar.jpg)
 }
 
 .material-button {
     background-color: rgba(1, 1, 1, 0.5) !important;
     color: white !important;
-    text-decoration: none !important;
 }
 
-.landing-background img {
+
+/* .landing-background img {
     width: 100vw;
-}
+} */
 
 .options {
     display: flex;
