@@ -17,8 +17,8 @@ class Landing extends React.Component {
         <div className="greeting">
           <h1>Hello, {" "}
             {this.props.match.params.name
-              ? this.props.match.params.name
-              : null} {"!"}
+              ? (this.props.match.params.name + "!")
+              : null}
           </h1>
         </div>
         <br />
