@@ -47,11 +47,13 @@ class Landing extends React.Component {
               <div className="about">About</div>
             </Button>
           </Link>
-          <Link to="/travel">
+          {/* <Link to="/travel"> */}
+          <a href="https://www.google.com/maps/d/u/0/embed?mid=1TLSTtMiDihATBZZQVluwUtVPnoA&ll=32.78099493245676%2C-9.632912300000044&z=2">
             <Button className="material-button" variant="outlined" id="research-button">
               <div className="travel">Travel</div>
             </Button>
-          </Link>
+          </a>
+          {/* </Link> */}
         </div>
       </div>;
   };
