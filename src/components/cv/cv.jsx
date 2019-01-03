@@ -255,10 +255,27 @@ class CV extends React.Component {
         {/* <div className="cv-hackathons">
           <h1>Hackathons</h1>
           <p>
-            
+          
           </p>
         </div> */}
 
+        <div className="cv-projects">
+          <h1>Projects</h1>
+          <p>
+            Canadian Stratospheric Balloon Experiment Challenge Design and
+            test a scientific experiment on board a High-Altitude Balloon by
+            the Canadian Space Agency Ontario, Canada |Ongoing • Designing
+            an experiment to measure how dispersing Calcite aerosol into the
+            stratosphere, can mitigate climate change by altering the
+            Earth’s albedo Reduced Gravity Experiment Design Challenge
+            Perform an experiment on the National Research Council's
+            Falcon-20 aircraft to simulate reduced gravity conditions
+            Ottawa, Canada |August 2017 • Designed an experiment to study
+            how droplets freeze in microgravity to better understand its
+            nanomaterial properties and crystallization • One of four
+            Canadian teams chosen to test this experiment
+          </p>
+        </div>
         <div className="cv-hobbies">
           <h1>Hobbies (possibly split into sports)</h1>
           <div className="Hobby">
@@ -307,23 +324,6 @@ class CV extends React.Component {
             construction and design of a zero-emission vehicle, to compete
             in the Shell Eco marathon efficiency race for sustainable
             transport
-          </p>
-        </div>
-        <div className="cv-projects">
-          <h1>Projects</h1>
-          <p>
-            Canadian Stratospheric Balloon Experiment Challenge Design and
-            test a scientific experiment on board a High-Altitude Balloon by
-            the Canadian Space Agency Ontario, Canada |Ongoing • Designing
-            an experiment to measure how dispersing Calcite aerosol into the
-            stratosphere, can mitigate climate change by altering the
-            Earth’s albedo Reduced Gravity Experiment Design Challenge
-            Perform an experiment on the National Research Council's
-            Falcon-20 aircraft to simulate reduced gravity conditions
-            Ottawa, Canada |August 2017 • Designed an experiment to study
-            how droplets freeze in microgravity to better understand its
-            nanomaterial properties and crystallization • One of four
-            Canadian teams chosen to test this experiment
           </p>
         </div>
         <div className="cv-volunteering">
