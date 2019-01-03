@@ -276,6 +276,23 @@ class CV extends React.Component {
             Canadian teams chosen to test this experiment
           </p>
         </div>
+            <div className="cv-clubs">
+              <h1>Clubs</h1>
+              <p>
+                EcoCar, Engineering Club Aeroshell Lead | September 2014 to
+                present • Designed the aeroshell body for the prototype class
+                vehicle based on competition performance specification and
+                guidelines for safety • Engineering analysis on vehicle
+                performance including FEA of loading scenarios on the composite
+                carbon fibre body • Designing an electronic steering mechanism
+                for be used in the autonomous driving of the vehicle • Mentoring
+                new members in designing and analyzing the frame and firewall to
+                ensure safety of the driver • Aided in various aspects of the
+                construction and design of a zero-emission vehicle, to compete
+                in the Shell Eco marathon efficiency race for sustainable
+                transport
+              </p>
+            </div>
         <div className="cv-hobbies">
           <h1>Hobbies (possibly split into sports)</h1>
           <div className="Hobby">
@@ -309,23 +326,6 @@ class CV extends React.Component {
             Aid, PPE, etc.) Youth Toastmaster’s certificate
           </p>
         </div> */}
-        <div className="cv-clubs">
-          <h1>Clubs</h1>
-          <p>
-            EcoCar, Engineering Club Aeroshell Lead | September 2014 to
-            present • Designed the aeroshell body for the prototype class
-            vehicle based on competition performance specification and
-            guidelines for safety • Engineering analysis on vehicle
-            performance including FEA of loading scenarios on the composite
-            carbon fibre body • Designing an electronic steering mechanism
-            for be used in the autonomous driving of the vehicle • Mentoring
-            new members in designing and analyzing the frame and firewall to
-            ensure safety of the driver • Aided in various aspects of the
-            construction and design of a zero-emission vehicle, to compete
-            in the Shell Eco marathon efficiency race for sustainable
-            transport
-          </p>
-        </div>
         <div className="cv-volunteering">
           <h1>Volunteering</h1>
           <p>
