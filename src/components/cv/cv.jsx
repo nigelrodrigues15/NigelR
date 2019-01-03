@@ -285,7 +285,7 @@ class CV extends React.Component {
              </p>
         </div>
         <div className="Hobby-Travel">
-          <img className="Hack-img" src="./images/BrassGuitar.jpg" alt="" />
+            <img className="Hobby-img" src="./images/BrassGuitar.jpg" alt="" />
           <p>
            Travel
              </p>
