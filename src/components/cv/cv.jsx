@@ -259,14 +259,6 @@ class CV extends React.Component {
           </p>
         </div> */}
 
-        <div className="cv-volunteering">
-          <h1>Volunteering</h1>
-          <p>
-            University of Alberta Engineering Student Society |2014-2016
-            Misericordia Community Hospital Creative Care & Book Cart
-            |2009-2014 YMCA Assistant Swim Instructor |2010
-          </p>
-        </div>
         <div className="cv-hobbies">
           <h1>Hobbies (possibly split into sports)</h1>
           <div className="Hobby">
@@ -295,7 +287,7 @@ class CV extends React.Component {
         {/* <div className="cv-otherinfo">
           <h1>Other Information</h1>
           <p>
-            Advanced Class 5 (Non-GDL) driver’s license with access to a
+          Advanced Class 5 (Non-GDL) driver’s license with access to a
             vehicle ACSA CSTS-09 – Safety Course Certification (WHMIS, First
             Aid, PPE, etc.) Youth Toastmaster’s certificate
           </p>
@@ -332,6 +324,14 @@ class CV extends React.Component {
             how droplets freeze in microgravity to better understand its
             nanomaterial properties and crystallization • One of four
             Canadian teams chosen to test this experiment
+          </p>
+        </div>
+        <div className="cv-volunteering">
+          <h1>Volunteering</h1>
+          <p>
+            University of Alberta Engineering Student Society |2014-2016
+            Misericordia Community Hospital Creative Care & Book Cart
+            |2009-2014 YMCA Assistant Swim Instructor |2010
           </p>
         </div>
       </div>;
