@@ -14,10 +14,10 @@
     height: 100%;
     position: absolute;
     z-index: -1;
-    -moz-animation: themountain 60s linear infinite;
-    -webkit-animation: themountain 60s linear infinite;
-    -ms-animation: themountain 60s linear infinite;
-    animation: themountain 60s linear infinite;
+    -moz-animation: themountain 60s linear infinite !important;
+    -webkit-animation: themountain 60s linear infinite !important;
+    -ms-animation: themountain 60s linear infinite !important;
+    animation: themountain 60s linear infinite !important;
     /* -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
