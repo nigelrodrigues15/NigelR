@@ -11,7 +11,7 @@ class Landing extends React.Component {
   render () {
 
     return <div className="landing">
-        <div id="landing-background">
+        <div className="landing-background">
           {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
         </div>
         <div className="greeting">
