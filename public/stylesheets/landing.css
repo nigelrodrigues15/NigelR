@@ -12,7 +12,7 @@
 .landing-background {
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
     z-index: -1;
     -moz-animation: themountain 60s linear infinite;
     -webkit-animation: themountain 60s linear infinite;
