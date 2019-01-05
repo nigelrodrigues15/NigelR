@@ -27,6 +27,7 @@ class Landing extends React.Component {
           <h1>I'm Nigel Rodrigues</h1>
         </div>
         <br />
+        <br />
         <div className="options">
           <Link to="/cv">
             <Button className="material-button" variant="outlined" id="research-button">
