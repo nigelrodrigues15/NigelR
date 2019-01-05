@@ -13,21 +13,61 @@ class Landing extends React.Component {
 
     return <div className="landing">
         <div className="landing-gradient">
-        <Particles params={{
-          "interactivity": {
-            "events": {
-              "onhover": {
-                "enable": true,
-                "mode": "repulse"
+        <Particles
+          params={{
+            "particles": {
+              "number": {
+                "value": 160,
+                "density": {
+                  "enable": true,
+                  "value_area": 1500
+                }
               },
-              "onclick": {
-                "enable": true,
-                "mode": "push"
+              "line_linked": {
+                "enable": false,
+                "opacity": 0.02
+              },
+              "move": {
+                "random": true,
+                "speed": 1,
+                "direction": "left",
+                "out_mode": "out"
+              },
+              "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                  "speed": 4,
+                  "size_min": 0.3
+                }
+              },
+              "opacity": {
+                "anim": {
+                  "enable": true,
+                  "speed": 1,
+                  "opacity_min": 0.05
+                }
               }
-            }
-          }
-        }} 
-        />
+            },
+            "interactivity": {
+              "events": {
+                "onclick": {
+                  "enable": true,
+                  "mode": "push"
+                },
+                "onhover": {
+                  "enable": true,
+                  "mode": "repel"
+                }
+              },
+              "modes": {
+                "push": {
+                  "particles_nb": 1
+                }
+              }
+            },
+            "retina_detect": true
+          }} />
         </div>
         <div className="landing-background">
           {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
