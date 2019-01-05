@@ -12,14 +12,17 @@ class Landing extends React.Component {
   render () {
 
     return <div className="landing">
-        <div className="landing-gradient"></div>
+        <div className="landing-gradient">
+          <Particles />
+        </div>
         <div className="landing-background">
           {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
         </div>
         <div className="greeting">
-          <h1>Hello, {" "}
+          <h1>
+            Hello,{" "}
             {this.props.match.params.name
-              ? (this.props.match.params.name + "!")
+              ? this.props.match.params.name + "!"
               : null}
           </h1>
         </div>
