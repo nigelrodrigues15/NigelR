@@ -12,25 +12,93 @@
 .landing-background {
     width: 100%;
     height: 100%;
-    position: absolute;
+    left: 0;
+    opacity: 1;
+    top: 0;
+    position: fixed;
     z-index: -1;
-    -moz-animation: themountain 60s linear infinite !important;
-    -webkit-animation: themountain 60s linear infinite !important;
-    -ms-animation: themountain 60s linear infinite !important;
-    animation: themountain 60s linear infinite !important;
-    /* -moz-backface-visibility: hidden;
+    -moz-animation: themountain 60s linear infinite;
+    -webkit-animation: themountain 60s linear infinite;
+    -ms-animation: themountain 60s linear infinite;
+    animation: themountain 60s linear infinite;
+    -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
-    backface-visibility: hidden; */
-    /* -moz-transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    -moz-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0); */
-    /* transform: translate3d(0, 0, 0); */
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/themountain.png);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/themountain.png) bottom left;
     /* background-repeat: no-repeat; */
     background-repeat: repeat-x;
-    background-size: 100vw auto;
-    background-position: bottom;
+    /* background-size: 100vw auto;
+    background-position: bottom; */
+}
+
+@-moz-keyframes themountain {
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -moz-transform: translate3d(-2250px, 0, 0);
+        -webkit-transform: translate3d(-2250px, 0, 0);
+        -ms-transform: translate3d(-2250px, 0, 0);
+        transform: translate3d(-2250px, 0, 0);
+    }
+}
+
+@-webkit-keyframes themountain {
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -moz-transform: translate3d(-2250px, 0, 0);
+        -webkit-transform: translate3d(-2250px, 0, 0);
+        -ms-transform: translate3d(-2250px, 0, 0);
+        transform: translate3d(-2250px, 0, 0);
+    }
+}
+
+@-ms-keyframes themountain {
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -moz-transform: translate3d(-2250px, 0, 0);
+        -webkit-transform: translate3d(-2250px, 0, 0);
+        -ms-transform: translate3d(-2250px, 0, 0);
+        transform: translate3d(-2250px, 0, 0);
+    }
+}
+
+@keyframes themountain {
+    0% {
+        -moz-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        -moz-transform: translate3d(-2250px, 0, 0);
+        -webkit-transform: translate3d(-2250px, 0, 0);
+        -ms-transform: translate3d(-2250px, 0, 0);
+        transform: translate3d(-2250px, 0, 0);
+    }
+}
+
+#themountain {
+    background-size: 2250px auto;
+    width: 6750px;
 }
 
 .material-button {
