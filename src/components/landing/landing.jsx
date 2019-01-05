@@ -13,7 +13,21 @@ class Landing extends React.Component {
 
     return <div className="landing">
         <div className="landing-gradient">
-          <Particles />
+        <Particles params={{
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              },
+              "onclick": {
+                "enable": true,
+                "mode": "push"
+              }
+            }
+          }
+        }} 
+        />
         </div>
         <div className="landing-background">
           {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
