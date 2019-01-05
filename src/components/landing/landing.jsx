@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import Button from "@material-ui/core/Button";
+import Particles from "react-particles-js";
 
 class Landing extends React.Component {
 
