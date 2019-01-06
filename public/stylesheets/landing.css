@@ -14,7 +14,6 @@
     opacity: 1;
     background: linear-gradient( rgb(0, 0, 0), rgb(30, 58, 61));
     /* background-size: 100vw auto; */
-    background-color: green;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -39,7 +38,7 @@
     background: rgba(30, 58, 61, 0.3) url(../images/themountainmirror.png) bottom left;
     /* background-repeat: no-repeat; */
     background-repeat: repeat-x;
-    background-size: 100vw auto;
+    background-size: 200vw auto;
     width: 5000px;
     height: 100%;
     left: 0;
