@@ -25,7 +25,7 @@ class Landing extends React.Component {
               },
               "line_linked": {
                 "enable": false,
-                "opacity": 0.02
+                "opacity": 0.4
               },
               "move": {
                 "random": true,
@@ -45,7 +45,7 @@ class Landing extends React.Component {
                 "anim": {
                   "enable": true,
                   "speed": 1,
-                  "opacity_min": 0.05
+                  "opacity_min": 0.5
                 }
               }
             },
