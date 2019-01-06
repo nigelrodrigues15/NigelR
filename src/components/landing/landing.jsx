@@ -25,7 +25,9 @@ class Landing extends React.Component {
               },
               "line_linked": {
                 "enable": false,
-                "opacity": 0.4
+                "opacity": 0.4,
+                "distance": 150,
+                "width": 1
               },
               "move": {
                 "random": true,
