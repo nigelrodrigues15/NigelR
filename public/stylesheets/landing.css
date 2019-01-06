@@ -14,11 +14,17 @@
     opacity: 1;
     background: linear-gradient( rgb(0, 0, 0), rgb(30, 58, 61));
     /* background-size: 100vw auto; */
+    background-color: green;
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     position: absolute;
+}
+
+.landing-gradient div {
+    width: 95%;
+    height: 95%;
 }
 
 .landing-background {
@@ -35,7 +41,7 @@
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    background: rgba(30, 58, 61, 0.3) url(../images/themountainmirror.png) bottom left;
+    background: rgba(30, 58, 61, 0) url(../images/themountainmirror.png) bottom left;
     /* background-repeat: no-repeat; */
     background-repeat: repeat-x;
     background-size: 200vw auto;
@@ -132,4 +138,8 @@
 
 a {
     text-decoration: none !important;
+}
+
+text-decoration: none !important;
+
 }
