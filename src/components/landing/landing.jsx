@@ -66,7 +66,8 @@ class Landing extends React.Component {
                 "push": {
                   "particles_nb": 1
                 }
-              }
+              },
+              "detect_on": "window"
             },
             "retina_detect": true
           }} />
