@@ -22,9 +22,11 @@
     position: absolute;
 }
 
-.landing-gradient div {
-    width: 95%;
-    height: 95%;
+.landing-gradient * {
+    width: 98%;
+    height: 98%;
+    margin: 0;
+    padding: 0;
 }
 
 .landing-background {
