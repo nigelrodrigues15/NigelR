@@ -46,7 +46,8 @@
     background: rgba(30, 58, 61, 0) url(../images/themountainmirror.png) bottom left;
     /* background-repeat: no-repeat; */
     background-repeat: repeat-x;
-    background-size: 150vw auto;
+    background-size: auto 60vh;
+    /* background-size: 150vw auto; */
     width: 5000px;
     height: 100%;
     left: 0;
