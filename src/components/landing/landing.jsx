@@ -21,7 +21,7 @@ class Landing extends React.Component {
         </div>
         <div className="greeting">
           <h1>
-            <Typed strings={[`Hello, ${this.props.match.params.name ? this.props.match.params.name + "!" : ""}`]} typeSpeed={40} />
+            <Typed showCursor={false} strings={[`Hello, ${this.props.match.params.name ? this.props.match.params.name + "!" : ""}`]} typeSpeed={40} />
           </h1>
         </div>
         <br />
