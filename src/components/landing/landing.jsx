@@ -2,6 +2,7 @@ import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Particles from "react-particles-js";
+import Typed from "react-typed";
 
 class Landing extends React.Component {
 
@@ -10,7 +11,7 @@ class Landing extends React.Component {
   };
 
   render () {
-
+// let greeting = 
     return <div className="landing">
         <div className="landing-gradient">
         <Particles
@@ -77,10 +78,11 @@ class Landing extends React.Component {
         </div>
         <div className="greeting">
           <h1>
-            Hello,{" "}
-            {this.props.match.params.name
-              ? this.props.match.params.name + "!"
-              : null}
+          <Typed
+            strings={[`Hello, ${this.props.match.params.name ? this.props.match.params.name + '!' : "" }`]}
+            typeSpeed={40}
+          />
+            
           </h1>
         </div>
         <br />
