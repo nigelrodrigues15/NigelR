@@ -14,80 +14,21 @@ class Landing extends React.Component {
 // let greeting = 
     return <div className="landing">
         <div className="landing-gradient">
-        <Particles
-          params={{
-            "particles": {
-              "number": {
-                "value": 160,
-                "density": {
-                  "enable": true,
-                  "value_area": 1500
-                }
-              },
-              "line_linked": {
-                "enable": false,
-                "opacity": 0.4,
-                "distance": 150,
-                "width": 1
-              },
-              "move": {
-                "random": true,
-                "speed": 1,
-                "direction": "left",
-                "out_mode": "out"
-              },
-              "size": {
-                "value": 3,
-                "random": true,
-                "anim": {
-                  "speed": 4,
-                  "size_min": 0.3
-                }
-              },
-              "opacity": {
-                "anim": {
-                  "enable": true,
-                  "speed": 1,
-                  "opacity_min": 0.5
-                }
-              }
-            },
-            "interactivity": {
-              "events": {
-                "onclick": {
-                  "enable": true,
-                  "mode": "push"
-                },
-                "onhover": {
-                  "enable": true,
-                  "mode": "grab"
-                }
-              },
-              "modes": {
-                "push": {
-                  "particles_nb": 1
-                }
-              },
-              "detect_on": "window"
-            },
-            "retina_detect": true
-          }} />
+          <Particles params={{ particles: { number: { value: 160, density: { enable: true, value_area: 1500 } }, line_linked: { enable: false, opacity: 0.4, distance: 150, width: 1 }, move: { random: true, speed: 1, direction: "left", out_mode: "out" }, size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "grab" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, retina_detect: true }} />
         </div>
         <div className="landing-background">
           {/* <img src="./images/BrassGuitar.jpg" alt="" /> */}
         </div>
         <div className="greeting">
           <h1>
-          <Typed
-            strings={[`Hello, ${this.props.match.params.name ? this.props.match.params.name + '!' : "" }`]}
-            typeSpeed={40}
-          />
-            
+            <Typed strings={[`Hello, ${this.props.match.params.name ? this.props.match.params.name + "!" : ""}`]} typeSpeed={40} />
           </h1>
         </div>
         <br />
         <div className="name">
-          <h1>I'm Nigel Rodrigues</h1>
+          <h1>
+            <Typed strings={[`I'm Nigel Rodrigues`]} typeSpeed={40} />
+          </h1>
         </div>
         <br />
         <br />
