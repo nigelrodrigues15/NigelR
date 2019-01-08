@@ -59,7 +59,7 @@ class Landing extends React.Component {
                 },
                 "onhover": {
                   "enable": true,
-                  "mode": "repulse"
+                  "mode": "grab"
                 }
               },
               "modes": {
