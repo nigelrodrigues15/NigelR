@@ -186,19 +186,20 @@ a {
     height: 100vh;
     background-color: white;
     display: grid;
-    grid-template-columns: minmax(1fr) minmax(1fr);
-    grid-template-rows: minmax(1fr) minmax(1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     /* grid-gap: 5vw; */
     justify-items: center;
     align-items: center;
 }
 
-.landing-options div img {
+.landing-options img {
     /* width: auto;
     height: 50vh; */
     object-fit: cover;
     height: 100%;
-    overflow: hidden;
+    width: 100%;
+    /* overflow: hidden; */
 }
 
 .landing-cv {
