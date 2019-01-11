@@ -179,11 +179,29 @@ a {
     text-decoration: none !important;
 }
 
-.landing-cv {
+.landing-options {
     top: 100vh;
     position: absolute;
     width: 100%;
     height: 100vh;
     background-color: white;
-    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.landing-cv {
+    background: blue;
+}
+
+.landing-projects {
+    background: green;
+}
+
+.landing-photo {
+    background: yellow;
+}
+
+.landing-travel {
+    background: red;
 }
