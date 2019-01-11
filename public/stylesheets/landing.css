@@ -178,3 +178,11 @@
 a {
     text-decoration: none !important;
 }
+
+.landing-cv {
+    top: 100vh;
+    position: absolute;
+    width: 100vw;
+    height: 100hh;
+    background-color: white;
+}
