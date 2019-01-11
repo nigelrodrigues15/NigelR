@@ -37,7 +37,7 @@ class Landing extends React.Component {
 {/* Options go here */}
       </div>
       <div className="landing-options">
-        <div className="landing-cv">About Me</div>
+        <div className="landing-cv"><img src="./images/Bridge.jpg" alt=""/></div>
           <div className="landing-projects">Projects</div>
           <div className="landing-photo">Photography</div>
           <div className="landing-travel">Travel</div>
