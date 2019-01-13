@@ -1,6 +1,14 @@
 .cv-splash {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.cv-splash img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .cv-education {
