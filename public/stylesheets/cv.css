@@ -1,3 +1,8 @@
+.cv-splash {
+    width: 100vw;
+    height: 100vh;
+}
+
 .cv-education {
     background-color: aquamarine;
     border-radius: 20px;
