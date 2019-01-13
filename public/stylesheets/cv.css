@@ -8,7 +8,9 @@
 .cv-splash img {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    top: -100px;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .cv-education {
