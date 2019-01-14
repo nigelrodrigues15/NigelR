@@ -1,0 +1,90 @@
+.cv-splash {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.cv-splash img {
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.cv-education {
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-skills {
+    background-color: navajowhite;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-competitions {
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-volunteering {
+    background-color: coral;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-hobbies {
+    background-color: darkgrey;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-otherinfo {
+    background-color: lightgreen;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-experience {
+    background-color: gold;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-clubs {
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-projects {
+    background-color: tomato;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-hackathons {
+    background-color: skyblue;
+    border-radius: 20px;
+    margin: 0 5vw 1vw 5vw;
+    padding: 2vw;
+}
+
+.cv-expand {
+    background: black;
+    width: 50vw;
+    height: 50vh;
+}
