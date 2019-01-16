@@ -19,15 +19,23 @@ class CV extends React.Component {
   render() {
     return <div className="cv cv-expand">
         <div className="cv-splash">
-        {/* <img src="./images/Person4.svg" alt=""/> */}
-        <Particles params={{
-          fps_limit: 28, particles: {
-            number: { value: 160, density: { enable: false, value_area: 1500 } }, line_linked: {
-              enable: true,
-              distance: 30,
-              color: "#000000",
-              opacity: 1
-            }, color: { value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"] }, line_linked: { enable: true, opacity: 0.4, distance: 150, width: 1 },size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "bubble" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, polygon: { enable: true, type: "outside", move: { radius: 10 }, url: "./images/Person3.svg", draw: { enable: true, stroke: { color: "black" } } }, retina_detect: false }} />
+          {/* <img src="./images/Person5.svg" alt=""/> */}
+          <Particles params={{ particles: { number: { value: 200, density: { enable: false, value_area: 1500 } }, line_linked: { enable: true, distance: 150, width: 1, color: "#000000", opacity: 0.1 }, color: { value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"] }, size: { value: 10, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "bubble" } }, modes: { push: { particles_nb: 1 }, bubble: { size: 20, distance: 40 } }, detect_on: "window" }, polygon: { enable: false, type: "inside", move: { radius: 10 }, url: "./images/Untitled-1.svg", draw: { enable: true, stroke: { color: "black" } } }, retina_detect: false }} />
+        </div>
+        <div className="cv-aboutme">
+          <img src="./images/MePicture.png" alt="" />
+          
+            <p>
+              I am currently in my first year of Masters in Mechanical &
+              Mechatronics Engineering at
+              the University of Waterloo in Waterloo, Canada. I have an
+              insatiable curiosity and enjoy learning new skills. My hobbies include
+              photography, travelling, playing sports, and designing. <br/><br/>
+              I love bringing an idea into existence. This may be through the design and construction of physical products, or to develop and create a software program. The problem solving and creative process is remarkably similar between the two, and I sincerely enjoy them. 
+              I've worked in a variety of engineering positions, and have learned lifelong skills from my workplace
+              and my colleagues.
+            </p>
+          
         </div>
         <div className="cv-education">
           <h1>Education</h1>
