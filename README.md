@@ -11,7 +11,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 **Week 1**: Landing Page
 
-- [] Create rails backend and react frontend
+- [x] Create rails backend and react frontend
 - [] Minimalist frontpage with custom url query
 - [] Links to other pages in website
 - [] One Page / Single Screen
