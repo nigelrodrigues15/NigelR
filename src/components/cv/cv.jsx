@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Particles from "react-particles-js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 class CV extends React.Component {
   constructor(props) {
@@ -24,18 +26,28 @@ class CV extends React.Component {
         </div>
         <div className="cv-aboutme">
           <img src="./images/MePicture.png" alt="" />
-          
-            <p>
-              I am currently in my first year of Masters in Mechanical &
-              Mechatronics Engineering at
-              the University of Waterloo in Waterloo, Canada. I have an
-              insatiable curiosity and enjoy learning new skills. My hobbies include
-              photography, travelling, playing sports, and designing. <br/><br/>
-              I love bringing an idea into existence. This may be through the design and construction of physical products, or to develop and create a software program. The problem solving and creative process is remarkably similar between the two, and I sincerely enjoy them. 
-              I've worked in a variety of engineering positions, and have learned lifelong skills from my workplace
-              and my colleagues.
-            </p>
-          
+
+          <p>
+            I am currently in my first year of Masters in Mechanical & Mechatronics Engineering at the University of Waterloo in Waterloo, Canada. I have an insatiable curiosity and enjoy learning new skills. My hobbies include photography, travelling, playing sports, and designing. <br />
+            <br />I love bringing an idea into existence. This may be through the design and construction of physical products, or to develop and create a software program. The problem solving and creative process is remarkably similar between the two, and I sincerely enjoy them. I've worked in a variety of engineering positions, and have learned lifelong skills from my workplace and my colleagues.
+          </p>
+        </div>
+
+        <div className="cv-EE">
+          <h1>Education and Experience</h1>
+          <ul className="cv-timeline">
+            <li>
+              <div className="cv-icon">
+              <FontAwesomeIcon icon={faBriefcase} />
+              </div>
+              <div className="cv-title">
+              <h3>Company 1</h3>
+              <h4>Position</h4>
+              <div className="cv-date">Date</div>
+              </div>
+              <p>this is a summary of a random job</p>
+            </li>
+          </ul>
         </div>
         <div className="cv-education">
           <h1>Education</h1>
