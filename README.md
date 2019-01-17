@@ -9,14 +9,14 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 ## Possible Implementation Timeline
 
-**Day 1**: Landing Page
+**Week 1**: Landing Page
 
 - [x] Create rails backend and react frontend
-- [ ] Minimalist frontpage with custom url query
-- [ ] Links to other pages in website
-- [ ] One Page / Single Screen
+- [x] Minimalist frontpage with custom url query
+- [x] Links to other pages in website
+- [x] One Page / Single Screen
 
-**Day 2**: Personal CV
+**Week 2**: Personal CV
 
 - [ ] Education & Educational Awards
 - [ ] Work Experience
@@ -28,7 +28,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] Programming Languages
 - [ ] Hobbies & Sports
 
-**Day 3**: Projects
+**Week 3**: Projects
 
 - [ ] Personal Website (Ruby/React)
 - [ ] Glasses
@@ -46,7 +46,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] ME 680
 - [ ] More...
 
-**Day 4**: Photography
+**Week 4**: Photography
 
 - [ ] Landscape
 - [ ] Portrait
