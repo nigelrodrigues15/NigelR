@@ -306,6 +306,7 @@
 
 .cv-timeline>li h3 {
     font-size: 2vw;
+    letter-spacing: 2px;
 }
 
 .h3 {
@@ -329,7 +330,7 @@
     margin-bottom: 2em;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: .8vw;
+    font-size: 0.9vw;
 }
 
 .cv-timeline>li p {
