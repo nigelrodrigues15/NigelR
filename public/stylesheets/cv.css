@@ -135,6 +135,11 @@
     display: block;
 }
 
+.cv-timeline>li:after {
+    width: 22px;
+    height: 44px;
+}
+
 .cv-timeline::before {
     content: '';
     display: block;
@@ -166,17 +171,16 @@
     padding: 1.5em 0;
 }
 
+.cv-timeline>li .cv-icon {
+    z-index: 1;
+}
+
 .cv-timeline>li:nth-child(odd)::before {
     left: -20px;
 }
 
 .cv-timeline>li:nth-child(even):before {
     right: -20px;
-}
-
-.cv-timeline>li:nth-child(even) {
-    padding-right: 40px;
-    text-align: right;
 }
 
 .cv-timeline>li::before {
@@ -186,7 +190,18 @@
     box-shadow: 0 0 0 2px black;
 }
 
-.cv-timeline>li:before,
+.cv-timeline>li .cv-icon:before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 55px;
+    top: 50%;
+    background-color: black;
+}
+
+
+/* .cv-timeline>li:before,
 .cv-timeline>li:after,
 .cv-timeline>li .cv-icon {
     position: absolute;
@@ -198,11 +213,61 @@
     content: '';
     display: block;
     color: black;
-    background-color: white;
-}
+    background-color: green;
+} */
 
 .cv-timeline>li:nth-child(even):after {
     right: -23px;
+}
+
+.cv-timeline>li:nth-child(odd):after {
+    left: -23px;
+}
+
+.cv-timeline>li .cv-icon,
+.cv-timeline>li:after,
+.cv-timeline>li:before {
+    position: absolute;
+    top: 4.6em;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    display: block;
+    background-color: white;
+}
+
+.cv-timeline>li:nth-child(odd) .cv-icon:after,
+.cv-timeline>li:nth-child(odd) .cv-icon:before {
+    left: 100%;
+    margin-left: 5px;
+}
+
+.cv-timeline>li:nth-child(even) .cv-icon:after,
+.cv-timeline>li:nth-child(even) .cv-icon:before {
+    right: 100%;
+    margin-right: 5px;
+}
+
+.cv-timeline>li:nth-child(odd) .cv-icon:after {
+    margin-left: 0;
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(61px);
+    -o-transform: translateY(-50%) translateX(-50%) translateX(61px);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(61px);
+    transform: translateY(-50%) translateX(-50%) translateX(61px);
+}
+
+.cv-timeline>li .cv-icon:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 6px black;
+    top: 50%;
+    background-color: white;
 }
 
 .cv-timeline>li:nth-child(even) .cv-icon {
