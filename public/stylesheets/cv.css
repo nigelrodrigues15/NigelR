@@ -121,6 +121,10 @@
     padding: 2vw;
 }
 
+.cv-EE {
+    margin: 7vw;
+}
+
 .cv-EE h1 {
     text-align: center;
 }
@@ -301,7 +305,7 @@
 }
 
 .cv-timeline>li h3 {
-    font-size: 1.5em;
+    font-size: 5vw;
 }
 
 .h3 {
