@@ -58,6 +58,28 @@ class CV extends React.Component {
               </div>
               <p>this is a summary of a random job</p>
             </li>
+            <li>
+              <div className="cv-icon">
+              <FontAwesomeIcon icon={faBriefcase} />
+              </div>
+              <div className="cv-title">
+              <h3>Company 1</h3>
+              <h4>Position</h4>
+              <div className="cv-date">Date</div>
+              </div>
+              <p>this is a summary of a random job</p>
+            </li>
+            <li>
+              <div className="cv-icon">
+              <FontAwesomeIcon icon={faBriefcase} />
+              </div>
+              <div className="cv-title">
+              <h3>Company 1</h3>
+              <h4>Position</h4>
+              <div className="cv-date">Date</div>
+              </div>
+              <p>this is a summary of a random job</p>
+            </li>
           </ul>
         </div>
         <div className="cv-education">
