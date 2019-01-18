@@ -93,56 +93,60 @@ class CV extends React.Component {
               </div>
               <div className="cv-title">
                 <h3>Avigilon Corporation</h3>
-                <h4>
-                  Mechanical Designer Co-op
-                </h4>
-                <h4>
-                  Vancouver, Canada
-                </h4>
-              <div className="cv-date">Jan 2017 - Aug
-                  2017</div>
+                <h4>Mechanical Designer Co-op</h4>
+                <h4>Vancouver, Canada</h4>
+                <div className="cv-date">Jan 2017 - Aug 2017</div>
               </div>
-            <p>• Recommended components based on
-          performance and cost testing, resulting in a total cost saving
-          of ~$150k/year • Performed First Article Inspection (FAI/FPI) on
-          injected molded plastics and die cast aluminum to determine if
-          parts have the correct dimensional tolerance and suitable
-          surface finish for production • Received RMA products and
-          performed root cause analysis (RCA) to diagnose and fix issues •
-          Conducted thermal, impact, water and stress tests on cameras to
-          determine performance of components and possible improvements •
-          Designed, fabricated and tested manufacturing jigs and fixtures
-          • Created extensive documentation for the assembly & operation
-          of the jig • Communicated with manufacturers locally and
-          overseas to modify and update OEM parts and assemblies of orders
-            around 25k/year</p>
+              <p>
+                • Recommended components based on performance and cost
+                testing, resulting in a total cost saving of ~$150k/year •
+                Performed First Article Inspection (FAI/FPI) on injected
+                molded plastics and die cast aluminum to determine if parts
+                have the correct dimensional tolerance and suitable surface
+                finish for production • Received RMA products and performed
+                root cause analysis (RCA) to diagnose and fix issues •
+                Conducted thermal, impact, water and stress tests on cameras
+                to determine performance of components and possible
+                improvements • Designed, fabricated and tested manufacturing
+                jigs and fixtures • Created extensive documentation for the
+                assembly & operation of the jig • Communicated with
+                manufacturers locally and overseas to modify and update OEM
+                parts and assemblies of orders around 25k/year
+              </p>
             </li>
             <li>
               <div className="cv-icon">
                 <FontAwesomeIcon icon={faBriefcase} />
               </div>
               <div className="cv-title">
-              <h3> Institute of Design, Robotics and Optimization
-             </h3>
-              <h4>Research Co-op</h4>
-              <h4>Leeds, United Kingdom</h4>
-              <div className="cv-date">May 2016 - Aug 2016</div>
+                <h3> Institute of Design, Robotics and Optimization</h3>
+                <h4>Research Co-op</h4>
+                <h4>Leeds, United Kingdom</h4>
+                <div className="cv-date">May 2016 - Aug 2016</div>
               </div>
-              <p> • Designed, prototyped and tested a deployment mechanism for a
-            drone (octocopter) to release autonomous robots • Mechanism
-            designed to release multiple robots at different times using a
-            single servo motor to optimize weight and power consumption</p>
+              <p>
+                 • Designed, prototyped and tested a deployment mechanism for
+                a drone (octocopter) to release autonomous robots •
+                Mechanism designed to release multiple robots at different
+                times using a single servo motor to optimize weight and
+                power consumption
+              </p>
             </li>
             <li>
               <div className="cv-icon">
                 <FontAwesomeIcon icon={faBriefcase} />
               </div>
               <div className="cv-title">
-                <h3>Company 1</h3>
-                <h4>Position</h4>
-                <div className="cv-date">Date</div>
+                <h3>Orthodontic Biomechanics Development Group </h3>
+                <h4>Research Co-op</h4>
+                <h4>Edmonton, Canada</h4>
+              <div className="cv-date">May - Aug 2015</div>
               </div>
-              <p>this is a summary of a random job</p>
+            <p>• Researched, designed and assembled a dual
+          camera optical apparatus to measure the 3D deformation in
+          orthodontics • Purchased equipment and accessories based on
+          specification and budget • Coded in LabWindows/CVI to
+            communicate between hardware components</p>
             </li>
           </ul>
         </div>
@@ -190,18 +194,6 @@ class CV extends React.Component {
             Advanced Class 5 (Non-GDL) driver’s license with access to a
             vehicle ACSA CSTS-09 – Safety Course Certification (WHMIS, First
             Aid, PPE, etc.) Youth Toastmaster’s certificate
-          </p>
-        </div>
-        <div className="cv-experience">
-          <h1>Experience</h1>
-          <p>
-            
-            Orthodontic Biomechanics Development Group Research Co-op
-            |Edmonton, Canada |May - Aug 2015 • Researched, designed and
-            assembled a dual camera optical apparatus to measure the 3D
-            deformation in orthodontics • Purchased equipment and
-            accessories based on specification and budget • Coded in
-            LabWindows/CVI to communicate between hardware components
           </p>
         </div>
         <div className="cv-clubs">
