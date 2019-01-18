@@ -37,7 +37,7 @@ class CV extends React.Component {
         <div className="cv-EE">
           <h1>Education and Experience</h1>
           <br />
-          <br/>
+          <br />
           <ul className="cv-timeline">
             <li>
               <div className="cv-icon">
@@ -45,54 +45,93 @@ class CV extends React.Component {
               </div>
               <div className="cv-title">
                 <h3>University of Waterloo </h3>
-              <h4>Masters in Mechanical & Mechatronics Engineering, Graduate Diploma in Design, Co-op</h4>
+                <h4>
+                  Masters in Mechanical & Mechatronics Engineering, Graduate
+                  Diploma in Design, Co-op
+                </h4>
                 <div className="cv-date">Sept 2018 - Apr 2020</div>
               </div>
               <p>Description of Masters?</p>
             </li>
             <li>
               <div className="cv-icon">
-              <FontAwesomeIcon icon={faGraduationCap} />
+                <FontAwesomeIcon icon={faGraduationCap} />
               </div>
               <div className="cv-title">
                 <h3>App Academy</h3>
                 <h4>Full Stack Web Development</h4>
                 <div className="cv-date">May 2018 - Aug 2018</div>
               </div>
-              <p>Intensive coding bootcamp focused on full stack web development using Ruby on Rails, Nodejs, and React frameworks. </p>
+              <p>
+                Intensive coding bootcamp focused on full stack web
+                development using Ruby on Rails, Nodejs, and React
+                frameworks.{" "}
+              </p>
             </li>
             <li>
               <div className="cv-icon">
-              <FontAwesomeIcon icon={faGraduationCap} />
+                <FontAwesomeIcon icon={faGraduationCap} />
               </div>
               <div className="cv-title">
                 <h3>University of Alberta</h3>
-                <h4>Bachelors in Mechanical Engineering, Biomedical option, Minor in Meathematics, Co-op</h4>
+                <h4>
+                  Bachelors in Mechanical Engineering, Biomedical option,
+                  Minor in Meathematics, Co-op
+                </h4>
                 <div className="cv-date">Sept 2013 - Apr 2018</div>
               </div>
               <p>Description of Bachelors?</p>
+              <p>
+                Awards:• Louise McKinney Scholarship • (top 1.5-2% in Mech.
+                Eng. • NSERC USRA Research Award • Dean’s Research Award • U
+                of A Academic Excellence
+              </p>
             </li>
             <li>
               <div className="cv-icon">
                 <FontAwesomeIcon icon={faBriefcase} />
               </div>
               <div className="cv-title">
-                <h3>Company 1</h3>
-                <h4>Position</h4>
-                <div className="cv-date">Date</div>
+                <h3>Avigilon Corporation</h3>
+                <h4>
+                  Mechanical Designer Co-op
+                </h4>
+                <h4>
+                  Vancouver, Canada
+                </h4>
+              <div className="cv-date">Jan 2017 - Aug
+                  2017</div>
               </div>
-              <p>this is a summary of a random job</p>
+            <p>• Recommended components based on
+          performance and cost testing, resulting in a total cost saving
+          of ~$150k/year • Performed First Article Inspection (FAI/FPI) on
+          injected molded plastics and die cast aluminum to determine if
+          parts have the correct dimensional tolerance and suitable
+          surface finish for production • Received RMA products and
+          performed root cause analysis (RCA) to diagnose and fix issues •
+          Conducted thermal, impact, water and stress tests on cameras to
+          determine performance of components and possible improvements •
+          Designed, fabricated and tested manufacturing jigs and fixtures
+          • Created extensive documentation for the assembly & operation
+          of the jig • Communicated with manufacturers locally and
+          overseas to modify and update OEM parts and assemblies of orders
+            around 25k/year</p>
             </li>
             <li>
               <div className="cv-icon">
                 <FontAwesomeIcon icon={faBriefcase} />
               </div>
               <div className="cv-title">
-                <h3>Company 1</h3>
-                <h4>Position</h4>
-                <div className="cv-date">Date</div>
+              <h3> Institute of Design, Robotics and Optimization
+             </h3>
+              <h4>Research Co-op</h4>
+              <h4>Leeds, United Kingdom</h4>
+              <div className="cv-date">May 2016 - Aug 2016</div>
               </div>
-              <p>this is a summary of a random job</p>
+              <p> • Designed, prototyped and tested a deployment mechanism for a
+            drone (octocopter) to release autonomous robots • Mechanism
+            designed to release multiple robots at different times using a
+            single servo motor to optimize weight and power consumption</p>
             </li>
             <li>
               <div className="cv-icon">
@@ -106,18 +145,6 @@ class CV extends React.Component {
               <p>this is a summary of a random job</p>
             </li>
           </ul>
-        </div>
-        <div className="cv-education">
-          <h1>Education</h1>
-          <p>
-            • MEng, Mechanical and Mechatronics Engineering, Graduate
-            Diploma in Design Co-op, Ongoing • BSc, Mechanical Engineering
-            Co-op, Minor in Mathematics, 2018 • Louise McKinney Scholarship
-            • (top 1.5-2% in Mech. Eng. • NSERC USRA Research Award • Dean’s
-            Research Award • U of A Academic Excellence Capstone: Analyzed
-            failure modes of a disabled ski outrigger and redesigned hinge
-            to prevent stranded skiers.
-          </p>
         </div>
         <div className="cv-skills">
           <h1>Computer Skills</h1>
@@ -168,26 +195,7 @@ class CV extends React.Component {
         <div className="cv-experience">
           <h1>Experience</h1>
           <p>
-            Avigilon Corporation Mechanical Designer Co-op |Vancouver,
-            Canada |Jan - Aug 2017 • Recommended components based on
-            performance and cost testing, resulting in a total cost saving
-            of ~$150k/year • Performed First Article Inspection (FAI/FPI) on
-            injected molded plastics and die cast aluminum to determine if
-            parts have the correct dimensional tolerance and suitable
-            surface finish for production • Received RMA products and
-            performed root cause analysis (RCA) to diagnose and fix issues •
-            Conducted thermal, impact, water and stress tests on cameras to
-            determine performance of components and possible improvements •
-            Designed, fabricated and tested manufacturing jigs and fixtures
-            • Created extensive documentation for the assembly & operation
-            of the jig • Communicated with manufacturers locally and
-            overseas to modify and update OEM parts and assemblies of orders
-            around 25k/year Institute of Design, Robotics and Optimization
-            Research Co-op |Leeds, United Kingdom |May - Aug 2016 •
-            Designed, prototyped and tested a deployment mechanism for a
-            drone (octocopter) to release autonomous robots • Mechanism
-            designed to release multiple robots at different times using a
-            single servo motor to optimize weight and power consumption
+            
             Orthodontic Biomechanics Development Group Research Co-op
             |Edmonton, Canada |May - Aug 2015 • Researched, designed and
             assembled a dual camera optical apparatus to measure the 3D
