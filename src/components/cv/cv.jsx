@@ -5,6 +5,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Particles from "react-particles-js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 class CV extends React.Component {
@@ -35,48 +36,72 @@ class CV extends React.Component {
 
         <div className="cv-EE">
           <h1>Education and Experience</h1>
+          <br />
+          <br/>
           <ul className="cv-timeline">
             <li>
               <div className="cv-icon">
-              <FontAwesomeIcon icon={faBriefcase} />
+                <FontAwesomeIcon icon={faGraduationCap} />
               </div>
               <div className="cv-title">
-              <h3>Company 1</h3>
-              <h4>Position</h4>
-              <div className="cv-date">Date</div>
+                <h3>University of Waterloo </h3>
+              <h4>Masters in Mechanical & Mechatronics Engineering, Graduate Diploma in Design, Co-op</h4>
+                <div className="cv-date">Sept 2018 - Apr 2020</div>
+              </div>
+              <p>Description of Masters?</p>
+            </li>
+            <li>
+              <div className="cv-icon">
+              <FontAwesomeIcon icon={faGraduationCap} />
+              </div>
+              <div className="cv-title">
+                <h3>App Academy</h3>
+                <h4>Full Stack Web Development</h4>
+                <div className="cv-date">May 2018 - Aug 2018</div>
+              </div>
+              <p>Intensive coding bootcamp focused on full stack web development using Ruby on Rails, Nodejs, and React frameworks. </p>
+            </li>
+            <li>
+              <div className="cv-icon">
+              <FontAwesomeIcon icon={faGraduationCap} />
+              </div>
+              <div className="cv-title">
+                <h3>University of Alberta</h3>
+                <h4>Bachelors in Mechanical Engineering, Biomedical option, Minor in Meathematics, Co-op</h4>
+                <div className="cv-date">Sept 2013 - Apr 2018</div>
+              </div>
+              <p>Description of Bachelors?</p>
+            </li>
+            <li>
+              <div className="cv-icon">
+                <FontAwesomeIcon icon={faBriefcase} />
+              </div>
+              <div className="cv-title">
+                <h3>Company 1</h3>
+                <h4>Position</h4>
+                <div className="cv-date">Date</div>
               </div>
               <p>this is a summary of a random job</p>
             </li>
             <li>
               <div className="cv-icon">
-              <FontAwesomeIcon icon={faBriefcase} />
+                <FontAwesomeIcon icon={faBriefcase} />
               </div>
               <div className="cv-title">
-              <h3>Company 1</h3>
-              <h4>Position</h4>
-              <div className="cv-date">Date</div>
+                <h3>Company 1</h3>
+                <h4>Position</h4>
+                <div className="cv-date">Date</div>
               </div>
               <p>this is a summary of a random job</p>
             </li>
             <li>
               <div className="cv-icon">
-              <FontAwesomeIcon icon={faBriefcase} />
+                <FontAwesomeIcon icon={faBriefcase} />
               </div>
               <div className="cv-title">
-              <h3>Company 1</h3>
-              <h4>Position</h4>
-              <div className="cv-date">Date</div>
-              </div>
-              <p>this is a summary of a random job</p>
-            </li>
-            <li>
-              <div className="cv-icon">
-              <FontAwesomeIcon icon={faBriefcase} />
-              </div>
-              <div className="cv-title">
-              <h3>Company 1</h3>
-              <h4>Position</h4>
-              <div className="cv-date">Date</div>
+                <h3>Company 1</h3>
+                <h4>Position</h4>
+                <div className="cv-date">Date</div>
               </div>
               <p>this is a summary of a random job</p>
             </li>
