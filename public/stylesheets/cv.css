@@ -305,7 +305,7 @@
 }
 
 .cv-timeline>li h3 {
-    font-size: 5vw;
+    font-size: 2vw;
 }
 
 .h3 {
@@ -320,7 +320,7 @@
 
 .cv-timeline>li h4 {
     color: black;
-    font-size: .9em;
+    font-size: 1vw;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -329,7 +329,7 @@
     margin-bottom: 2em;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: .8em;
+    font-size: .8vw;
 }
 
 .cv-timeline>li p {
