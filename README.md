@@ -64,7 +64,6 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 
 
-### Contact Info
 ### Travel
 
 ## Future works
