@@ -63,7 +63,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 
 
 
-### Photography
+
 ### Projects
 ### Contact Info
 ### Travel
