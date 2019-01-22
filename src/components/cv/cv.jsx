@@ -163,8 +163,9 @@ class CV extends React.Component {
               <li>Researched, designed and assembled a dual camera optical
               apparatus to measure the 3D deformation in orthodontics •
               Purchased equipment and accessories based on specification
-                and budget</li> Coded in LabWindows/CVI to communicate between
-                hardware components
+                and budget</li> 
+              <li>Coded in LabWindows/CVI to communicate between
+                hardware components</li>
               </ul>
             </li>
           </ul>
