@@ -160,10 +160,10 @@ class CV extends React.Component {
                 <div className="cv-date">May - Aug 2015</div>
               </div>
               <ul>
-                • Researched, designed and assembled a dual camera optical
-                apparatus to measure the 3D deformation in orthodontics •
-                Purchased equipment and accessories based on specification
-                and budget • Coded in LabWindows/CVI to communicate between
+              <li>Researched, designed and assembled a dual camera optical
+              apparatus to measure the 3D deformation in orthodontics •
+              Purchased equipment and accessories based on specification
+                and budget</li> Coded in LabWindows/CVI to communicate between
                 hardware components
               </ul>
             </li>
