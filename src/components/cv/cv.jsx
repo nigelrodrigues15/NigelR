@@ -159,13 +159,13 @@ class CV extends React.Component {
                 <h4>Edmonton, Canada</h4>
                 <div className="cv-date">May - Aug 2015</div>
               </div>
-              <p>
+              <ul>
                 • Researched, designed and assembled a dual camera optical
                 apparatus to measure the 3D deformation in orthodontics •
                 Purchased equipment and accessories based on specification
                 and budget • Coded in LabWindows/CVI to communicate between
                 hardware components
-              </p>
+              </ul>
             </li>
           </ul>
         </div>
