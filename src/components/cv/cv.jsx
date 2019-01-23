@@ -104,27 +104,36 @@ class CV extends React.Component {
               <ul>
                 <li>
                   Recommended components based on performance and cost
-                  testing, resulting in a total cost saving of ~$150k/year 
+                  testing, resulting in a total cost saving of ~$150k/year
                 </li>
-              <li>                        Performed First Article Inspection (FAI/FPI) on injected
-                        molded plastics and die cast aluminum to determine if
-                        parts have the correct dimensional tolerance and suitable
-                  surface finish for production{" "}</li>
+                <li>
+                  {" "}
+                  Performed First Article Inspection (FAI/FPI) on injected
+                  molded plastics and die cast aluminum to determine if
+                  parts have the correct dimensional tolerance and suitable
+                  surface finish for production{" "}
+                </li>
                 <li>
                   Received RMA products and performed root cause analysis
-                  (RCA) to diagnose and fix issues 
+                  (RCA) to diagnose and fix issues
                 </li>
-              <li>Conducted thermal,
-                impact, water and stress tests on cameras to determine
-                  performance of components and possible improvements</li>
+                <li>
+                  Conducted thermal, impact, water and stress tests on
+                  cameras to determine performance of components and
+                  possible improvements
+                </li>
                 <li>
                   Designed, fabricated and tested manufacturing jigs and
-                fixtures
+                  fixtures
                 </li> <li>
                   Created extensive documentation for the assembly &
                   operation of the jig
-                </li> 
-              <li>Communicated with manufacturers locally and overseas to modify and update OEM parts and assemblies of orders around 25k/year</li>
+                </li>
+                <li>
+                  Communicated with manufacturers locally and overseas to
+                  modify and update OEM parts and assemblies of orders
+                  around 25k/year
+                </li>
               </ul>
             </li>
             <li>
@@ -160,12 +169,18 @@ class CV extends React.Component {
                 <div className="cv-date">May - Aug 2015</div>
               </div>
               <ul>
-              <li>Researched, designed and assembled a dual camera optical
-              apparatus to measure the 3D deformation in orthodontics •
-              Purchased equipment and accessories based on specification
-                and budget</li> 
-              <li>Coded in LabWindows/CVI to communicate between
-                hardware components</li>
+                <li>
+                  Researched, designed and assembled a dual camera optical
+                  apparatus to measure the 3D deformation in orthodontics{" "}
+                </li>
+                <li>
+                  Purchased equipment and accessories based on
+                  specification and budget
+                </li>
+                <li>
+                  Coded in LabWindows/CVI to communicate between hardware
+                  components
+                </li>
               </ul>
             </li>
           </ul>
