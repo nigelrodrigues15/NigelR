@@ -85,8 +85,8 @@ class CV extends React.Component {
                 </h4>
                 <div className="cv-date">Sept 2013 - Apr 2018</div>
               </div>
-              <p>Description of Bachelors?</p>
               <ul>
+              <p>Description of Bachelors?</p>
                 Awards:
                 <li>
                   Louise McKinney Scholarship (top 1.5-2% in Mech. Eng.)
