@@ -51,7 +51,10 @@ class CV extends React.Component {
                 </h4>
                 <div className="cv-date">Sept 2018 - Apr 2020</div>
               </div>
+              <ul>
+
               <p>Description of Masters?</p>
+              </ul>
             </li>
             <li>
               <div className="cv-icon">
