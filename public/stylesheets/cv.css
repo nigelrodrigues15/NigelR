@@ -191,6 +191,10 @@
     background-color: black;
 }
 
+.cv-timeline ul {
+    background: blue
+}
+
 
 /* .cv-timeline>li:before,
 .cv-timeline>li:after,
