@@ -191,8 +191,9 @@
     background-color: black;
 }
 
-.cv-timeline ul:nth-of-type(2n+1) {
-    background: rgb(125, 106, 196)
+.cv-timeline>li:nth-of-type(even) ul {
+    background: rgb(125, 106, 196);
+    padding-left: 7vw;
 }
 
 
