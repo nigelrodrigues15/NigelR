@@ -192,7 +192,7 @@
 }
 
 .cv-timeline>li:nth-of-type(even) ul {
-    background: rgb(125, 106, 196);
+    /* background: rgb(125, 106, 196); */
     padding-left: 7vw;
 }
 
