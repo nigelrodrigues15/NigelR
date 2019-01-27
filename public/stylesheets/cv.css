@@ -196,6 +196,11 @@
     padding-left: 7vw;
 }
 
+.cv-timeline>li:nth-of-type(odd) ul {
+    background: rgb(196, 106, 106);
+    padding-right: 7vw;
+}
+
 
 /* .cv-timeline>li:before,
 .cv-timeline>li:after,
