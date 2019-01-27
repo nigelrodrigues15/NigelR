@@ -191,8 +191,8 @@
     background-color: black;
 }
 
-.cv-timeline ul:nth-of-type(odd) {
-    background: green
+.cv-timeline ul:nth-of-type(2n) {
+    background: rgb(125, 106, 196)
 }
 
 
