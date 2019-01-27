@@ -65,11 +65,11 @@ class CV extends React.Component {
                 <div className="cv-date">May 2018 - Aug 2018</div>
               </div>
               <ul>
-              <li>
-                Intensive! coding bootcamp focused on full stack web
+              <p>
+                Intensive coding bootcamp focused on full stack web
                 development using Ruby on Rails, Nodejs, and React
                 frameworks.{" "}
-              </li>
+              </p>
               </ul>
             </li>
             <li>
