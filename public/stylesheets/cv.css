@@ -155,6 +155,74 @@
     padding-right: 40px;
     text-align: right;
     right: 40px;
+    -webkit-animation: fadeinRight 5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeinRight 5s;
+    /* Firefox < 16 */
+    -ms-animation: fadeinRight 5s;
+    /* Internet Explorer */
+    -o-animation: fadeinRight 5s;
+    /* Opera < 12.1 */
+    animation: fadeinRight 5s;
+}
+
+@keyframes fadeinRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadeinRight {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadeinRight {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadeinRight {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadeinRight {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .cv-timeline>li {
