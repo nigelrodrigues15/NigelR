@@ -148,7 +148,6 @@
 .cv-timeline>li:nth-child(odd) {
     left: 50%;
     padding-left: 40px;
-    background: green;
 }
 
 .cv-timeline>li:nth-child(even) {
@@ -165,6 +164,7 @@
 
 .cv-timeline>li .cv-icon {
     z-index: 1;
+    background: green;
 }
 
 .cv-timeline>li:nth-child(odd)::before {
