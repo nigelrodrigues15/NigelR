@@ -148,39 +148,39 @@
 .cv-timeline>li:nth-child(odd) {
     left: 50%;
     padding-left: 40px;
-    background: green;
 }
 
 .cv-timeline>li:nth-child(even) {
+    background: green;
     padding-right: 40px;
     text-align: right;
     right: 40px;
-    -webkit-animation: fadeinRight 5s;
+    -webkit-animation: fadein 3s;
     /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadeinRight 5s;
+    -moz-animation: fadein 3s;
     /* Firefox < 16 */
-    -ms-animation: fadeinRight 5s;
+    -ms-animation: fadein 3s;
     /* Internet Explorer */
-    -o-animation: fadeinRight 5s;
+    -o-animation: fadein 3s;
     /* Opera < 12.1 */
-    animation: fadeinRight 5s;
+    animation: fadein 3s;
 }
 
-@keyframes fadeinRight {
+@keyframes fadein {
     from {
         opacity: 0;
-        transform: translateX(20px);
+        /* transform: translateX(-20px); */
     }
     to {
         opacity: 1;
-        transform: translateX(0);
+        /* transform: translateX(0); */
     }
 }
 
 
 /* Firefox < 16 */
 
-@-moz-keyframes fadeinRight {
+@-moz-keyframes fadein {
     from {
         opacity: 0;
     }
@@ -192,7 +192,7 @@
 
 /* Safari, Chrome and Opera > 12.1 */
 
-@-webkit-keyframes fadeinRight {
+@-webkit-keyframes fadein {
     from {
         opacity: 0;
     }
@@ -204,7 +204,7 @@
 
 /* Internet Explorer */
 
-@-ms-keyframes fadeinRight {
+@-ms-keyframes fadein {
     from {
         opacity: 0;
     }
@@ -216,7 +216,7 @@
 
 /* Opera < 12.1 */
 
-@-o-keyframes fadeinRight {
+@-o-keyframes fadein {
     from {
         opacity: 0;
     }
