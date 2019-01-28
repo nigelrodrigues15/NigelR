@@ -160,7 +160,7 @@
 }
 
 .cv-timeline>li:nth-child(even) {
-    background: green;
+    /* background: green; */
     padding-right: 40px;
     text-align: right;
     right: 40px;
