@@ -10,6 +10,8 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 ## New Site location
 www.nigelr.ca
 
+* Hosted with Github Pages
+
 ## Possible Implementation Timeline
 
 **Week 1**: Landing Page
