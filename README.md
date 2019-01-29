@@ -7,6 +7,7 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 * Located at [www.ualberta.ca/~nigel1](www.ualberta.ca/~nigel1)
 * Outdated Information
 
+
 ## Possible Implementation Timeline
 
 **Week 1**: Landing Page
@@ -60,9 +61,6 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 - [ ] More from Instagram
 
 ## Future works
-
-### Site location
-www.nigelr.ca
 
 ### Content
 - [ ] Landing Page
