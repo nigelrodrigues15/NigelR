@@ -7,6 +7,8 @@ File structure borrowed from the Dragonfly project. `package.json` will likely b
 * Located at [www.ualberta.ca/~nigel1](www.ualberta.ca/~nigel1)
 * Outdated Information
 
+### Site location
+www.nigelr.ca
 
 ## Possible Implementation Timeline
 
