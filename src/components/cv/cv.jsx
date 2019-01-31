@@ -215,7 +215,7 @@ class CV extends React.Component {
           <div className="Hack-MSC">
             Microsoft Coding Competition 2nd Place |Edmonton, Canada
           </div>
-          <div className="">
+        <div className="Hack-GOOG">
             Techstars Hackathon 2nd Place |California,
           USA |July 2017 Created an website to provide live and historical
           data on publicly traded companies
