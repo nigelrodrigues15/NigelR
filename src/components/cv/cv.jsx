@@ -212,7 +212,7 @@ class CV extends React.Component {
             UAEC Senior Design Competition (VEX Robotics) 1st Place
             |Edmonton, Canada
           </div>
-          <div className="">
+        <div className="Hack-MSC">
             Microsoft Coding Competition 2nd Place |Edmonton, Canada
           </div>
         <div className="Hack-GOOG">
@@ -221,6 +221,7 @@ class CV extends React.Component {
           data on publicly traded companies
           </div>
           <p>
+            <a href="">Click here to show more</a>
             Western Engineering Competition Participant |Banff, Canada |Jan
             2018 UAEC Senior Design Competition (VEX Robotics) 1st Place
             |Edmonton, Canada |Oct 2017 Microsoft Coding Competition 2nd
