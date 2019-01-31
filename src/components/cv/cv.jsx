@@ -208,6 +208,7 @@ class CV extends React.Component {
         </div>
         <div className="cv-competitions">
           <h1>Competitions & Hackathons</h1>
+          <div className="Hacks">
           <div className="Hack-UAEC">
             UAEC Senior Design Competition (VEX Robotics) 1st Place
             |Edmonton, Canada
@@ -219,6 +220,7 @@ class CV extends React.Component {
             Techstars Hackathon 2nd Place |California,
           USA |July 2017 Created an website to provide live and historical
           data on publicly traded companies
+          </div>
           </div>
           <p>
             <a href="">Click here to show more</a>
