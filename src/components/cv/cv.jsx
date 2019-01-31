@@ -52,7 +52,7 @@ class CV extends React.Component {
                 <div className="cv-date">Sept 2018 - Apr 2020</div>
               </div>
               <ul>
-              <p>Description of Masters?</p>
+                <p>Description of Masters?</p>
               </ul>
             </li>
             <li>
@@ -65,11 +65,11 @@ class CV extends React.Component {
                 <div className="cv-date">May 2018 - Aug 2018</div>
               </div>
               <ul>
-              <p>
-                Intensive coding bootcamp focused on full stack web
-                development using Ruby on Rails, Nodejs, and React
-                frameworks.{" "}
-              </p>
+                <p>
+                  Intensive coding bootcamp focused on full stack web
+                  development using Ruby on Rails, Nodejs, and React
+                  frameworks.{" "}
+                </p>
               </ul>
             </li>
             <li>
@@ -85,7 +85,7 @@ class CV extends React.Component {
                 <div className="cv-date">Sept 2013 - Apr 2018</div>
               </div>
               <ul>
-              <p>Description of Bachelors?</p>
+                <p>Description of Bachelors?</p>
                 Awards:
                 <li>
                   Louise McKinney Scholarship (top 1.5-2% in Mech. Eng.)
@@ -178,8 +178,8 @@ class CV extends React.Component {
                   apparatus to measure the 3D deformation in orthodontics{" "}
                 </li>
                 <li>
-                  Purchased equipment and accessories based on
-                  specification and budget
+                  Purchased equipment and accessories based on specification
+                  and budget
                 </li>
                 <li>
                   Coded in LabWindows/CVI to communicate between hardware
@@ -207,15 +207,45 @@ class CV extends React.Component {
           </div>
         </div>
         <div className="cv-competitions">
-          <h1>Competitions</h1>
+          <h1>Competitions & Hackathons</h1>
+          <div className="Hack-UAEC">
+            UAEC Senior Design Competition (VEX Robotics) 1st Place
+            |Edmonton, Canada
+          </div>
+          <div className="Hack-MSC">
+            Microsoft Coding Competition 2nd Place |Edmonton, Canada
+          </div>
+          <div className="Hack-GOOG">
+            Techstars Hackathon 2nd Place |California,
+          USA |July 2017 Created an website to provide live and historical
+          data on publicly traded companies
+          </div>
           <p>
             Western Engineering Competition Participant |Banff, Canada |Jan
             2018 UAEC Senior Design Competition (VEX Robotics) 1st Place
             |Edmonton, Canada |Oct 2017 Microsoft Coding Competition 2nd
             Place |Edmonton, Canada |Sept 2017 ENCMP Programming Competition
-            2nd Place |Edmonton, Canada |Mar 2014
+            2nd Place |Edmonton, Canada |Mar 2014 Avigilon Hackathon Participant |Vancouver, Canada |July 2017 •
+            Created an adapter that can add pan and tilt functionality to
+            any camera • Used 3D printing for the frame, controlled stepper
+            motors with an Arduino and Bluetooth module via an android app
+            Global AI Hackathon Participant |Vancouver, Canada |June 2017 •
+            Program outputs the average emotion of a particular event or
+            hashtag using Microsoft Cognitive Services Emotion API along
+            with Instagram's API Techstars Hackathon 2nd Place |California,
+            USA |July 2017 Created an website to provide live and historical
+            data on publicly traded companies NASA space apps Hackathon
+            participant |California, USA |July 2017 Used satellite data for
+            data visualization to catered to individuals in non-stem fields.
           </p>
         </div>
+        {/* <div className="cv-hackathons">
+          <h1>Hackathons</h1>
+          <p>
+            
+          </p>
+        </div> */}
+
         <div className="cv-volunteering">
           <h1>Volunteering</h1>
           <p>
@@ -272,23 +302,6 @@ class CV extends React.Component {
             how droplets freeze in microgravity to better understand its
             nanomaterial properties and crystallization • One of four
             Canadian teams chosen to test this experiment
-          </p>
-        </div>
-        <div className="cv-hackathons">
-          <h1>Hackathons</h1>
-          <p>
-            Avigilon Hackathon Participant |Vancouver, Canada |July 2017 •
-            Created an adapter that can add pan and tilt functionality to
-            any camera • Used 3D printing for the frame, controlled stepper
-            motors with an Arduino and Bluetooth module via an android app
-            Global AI Hackathon Participant |Vancouver, Canada |June 2017 •
-            Program outputs the average emotion of a particular event or
-            hashtag using Microsoft Cognitive Services Emotion API along
-            with Instagram's API Techstars Hackathon 2nd Place |California,
-            USA |July 2017 Created an website to provide live and historical
-            data on publicly traded companies NASA space apps Hackathon
-            participant |California, USA |July 2017 Used satellite data for
-            data visualization to catered to individuals in non-stem fields.
           </p>
         </div>
       </div>;
