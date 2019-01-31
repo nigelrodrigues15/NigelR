@@ -212,7 +212,7 @@ class CV extends React.Component {
             UAEC Senior Design Competition (VEX Robotics) 1st Place
             |Edmonton, Canada
           </div>
-          <div className="Hack-MSC">
+          <div className="">
             Microsoft Coding Competition 2nd Place |Edmonton, Canada
           </div>
         <div className="Hack-GOOG">
