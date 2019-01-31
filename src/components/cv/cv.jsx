@@ -232,14 +232,14 @@ class CV extends React.Component {
             surfing Other Hobbies: Photography, Travel
           </p>
         </div>
-        <div className="cv-otherinfo">
+        {/* <div className="cv-otherinfo">
           <h1>Other Information</h1>
           <p>
             Advanced Class 5 (Non-GDL) driver’s license with access to a
             vehicle ACSA CSTS-09 – Safety Course Certification (WHMIS, First
             Aid, PPE, etc.) Youth Toastmaster’s certificate
           </p>
-        </div>
+        </div> */}
         <div className="cv-clubs">
           <h1>Clubs</h1>
           <p>
