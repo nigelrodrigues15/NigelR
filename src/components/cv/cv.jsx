@@ -211,18 +211,24 @@ class CV extends React.Component {
           <div className="Hacks">
           <div className="Hack-UAEC">
           <img className="Hack-img" src="./images/BrassGuitar.jpg" alt=""/>
-            UAEC Senior Design Competition (VEX Robotics) 1st Place
+            <p>
+              UAEC Senior Design Competition (VEX Robotics) 1st Place
             |Edmonton, Canada
+              </p> 
           </div>
         <div className="Hack-MSC">
             <img className="Hack-img" src="./images/BrassGuitar.jpg" alt="" />
-            Microsoft Coding Competition 2nd Place |Edmonton, Canada
+           <p>
+             Microsoft Coding Competition 2nd Place |Edmonton, Canada
+             </p> 
           </div>
         <div className="Hack-GOOG">
             <img className="Hack-img" src="./images/BrassGuitar.jpg" alt="" />
-            Techstars Hackathon 2nd Place |California,
+           <p>
+             Techstars Hackathon 2nd Place |California,
           USA |July 2017 Created an website to provide live and historical
           data on publicly traded companies
+             </p> 
           </div>
           </div>
           <p>
