@@ -422,3 +422,9 @@ p {
 p {
     margin: 0 0 10px;
 }
+
+.Hacks {
+    background-color: blue;
+    display: inline-flex;
+    justify-content: space-between;
+}
