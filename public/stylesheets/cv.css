@@ -424,12 +424,12 @@ p {
 }
 
 .Hacks {
-    background-color: blue;
     display: inline-flex;
     justify-content: space-between;
 }
 
 .Hacks div {
+    background-color: blue;
     width: 33.33%;
     margin: 1vw;
 }
