@@ -432,4 +432,5 @@ p {
     background-color: blue;
     width: 33.33%;
     margin: 1vw;
+    justify-content: center;
 }
