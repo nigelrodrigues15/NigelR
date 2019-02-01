@@ -427,4 +427,5 @@ p {
     background-color: blue;
     display: inline-flex;
     justify-content: space-between;
+    margin: 1vw;
 }
