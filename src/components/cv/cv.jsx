@@ -231,6 +231,7 @@ class CV extends React.Component {
              </p> 
           </div>
           </div>
+          <br/>
           <p>
             <a href="">Click here to show more</a>
             Western Engineering Competition Participant |Banff, Canada |Jan
