@@ -431,9 +431,9 @@ p {
 .Hacks div {
     width: 33.33%;
     margin: 1vw;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
     flex-direction: column;
 }
 
