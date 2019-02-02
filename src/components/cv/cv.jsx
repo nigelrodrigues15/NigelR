@@ -269,11 +269,26 @@ class CV extends React.Component {
         </div>
         <div className="cv-hobbies">
           <h1>Hobbies (possibly split into sports)</h1>
+        <div className="Hobby-Sports">
+          <img className="Hack-img" src="./images/BrassGuitar.jpg" alt="" />
           <p>
             Hobbies High School Senior Soccer & Curling Team Community
             Basketball & Badminton Team Other Sports: golfing, skiing,
-            surfing Other Hobbies: Photography, Travel
-          </p>
+            surfing
+             </p>
+        </div>
+        <div className="Hobby-Photos">
+          <img className="Hack-img" src="./images/BrassGuitar.jpg" alt="" />
+          <p>
+           Photography
+             </p>
+        </div>
+        <div className="Hobby-Travel">
+          <img className="Hack-img" src="./images/BrassGuitar.jpg" alt="" />
+          <p>
+           Travel
+             </p>
+        </div>
         </div>
         {/* <div className="cv-otherinfo">
           <h1>Other Information</h1>
