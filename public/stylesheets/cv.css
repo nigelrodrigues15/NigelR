@@ -441,3 +441,22 @@ p {
     width: 15vw;
     border-radius: 10%;
 }
+
+.Hobby {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.Hobby div {
+    width: 33.33%;
+    margin: 1vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Hobby-img {
+    width: 15vw;
+    border-radius: 10%;
+}
