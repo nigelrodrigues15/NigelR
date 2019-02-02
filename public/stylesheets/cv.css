@@ -429,12 +429,12 @@ p {
 }
 
 .Hacks div {
-    background-color: blue;
     width: 33.33%;
     margin: 1vw;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
 }
 
 .Hack-img {
