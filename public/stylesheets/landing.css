@@ -254,6 +254,7 @@ a {
 }
 
 .LandingCV {
-    position: top: 100vh;
+    position: relative;
+    top: 100vh;
     background: white;
 }
