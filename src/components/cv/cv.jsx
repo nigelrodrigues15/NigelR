@@ -21,10 +21,9 @@ class CV extends React.Component {
 
   render() {
     return <div className="cv cv-expand">
-        <div className="cv-splash">
-          {/* <img src="./images/Person5.svg" alt=""/> */}
+        {/* <div className="cv-splash">
           <Particles params={{ particles: { number: { value: 200, density: { enable: false, value_area: 1500 } }, line_linked: { enable: true, distance: 150, width: 1, color: "#000000", opacity: 0.1 }, color: { value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"] }, size: { value: 10, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "bubble" } }, modes: { push: { particles_nb: 1 }, bubble: { size: 20, distance: 40 } }, detect_on: "window" }, polygon: { enable: false, type: "inside", move: { radius: 10 }, url: "./images/Untitled-1.svg", draw: { enable: true, stroke: { color: "black" } } }, retina_detect: false }} />
-        </div>
+        </div> */}
         <div className="cv-aboutme">
           <img src="./images/MePicture.png" alt="" />
 
