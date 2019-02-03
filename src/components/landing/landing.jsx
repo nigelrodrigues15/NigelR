@@ -36,11 +36,6 @@ class Landing extends React.Component {
           </div>
           <br />
           <br />
-          <Link to="/cv">
-            <div className="landing-cv">
-              <FontAwesomeIcon icon={faUserGraduate} />
-            </div>
-          </Link>
           {/* Options go here */}
         </div>
         </div>
@@ -49,9 +44,15 @@ class Landing extends React.Component {
         </div>
       </div>;
 
-  };
+};
 }
 export default withRouter(Landing);
+
+{/* <Link to="/cv">
+  <div className="landing-cv">
+    <FontAwesomeIcon icon={faUserGraduate} />
+  </div>
+</Link> */}
 
 // options
 {/* <div className="options">
