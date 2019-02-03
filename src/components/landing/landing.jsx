@@ -14,7 +14,8 @@ class Landing extends React.Component {
   };
 
   render () {
-    return <div className="splash">
+    return <div className="OnePage">
+    <div className="splash">
         <div className="landing">
           <div className="landing-gradient">
             <Particles params={{ particles: { number: { value: 160, density: { enable: true, value_area: 1500 } }, line_linked: { enable: false, opacity: 0.4, distance: 150, width: 1 }, move: { random: true, speed: 1, direction: "left", out_mode: "out" }, size: { value: 3, random: true, anim: { speed: 4, size_min: 0.3 } }, opacity: { anim: { enable: true, speed: 1, opacity_min: 0.5 } } }, interactivity: { events: { onclick: { enable: true, mode: "push" }, onhover: { enable: true, mode: "grab" } }, modes: { push: { particles_nb: 1 } }, detect_on: "window" }, retina_detect: true }} />
@@ -41,6 +42,7 @@ class Landing extends React.Component {
             </div>
           </Link>
           {/* Options go here */}
+        </div>
         </div>
         <div className="LandingCV">
       <CVContainer />
