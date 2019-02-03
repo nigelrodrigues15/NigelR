@@ -254,6 +254,6 @@ a {
 }
 
 .LandingCV {
-    display: block;
+    top: 100vh;
     background: white;
 }
