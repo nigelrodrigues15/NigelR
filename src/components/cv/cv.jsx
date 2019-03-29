@@ -104,18 +104,19 @@ class CV extends React.Component {
               <ul>
                 <li>
                   Recommended components based on performance and cost
-                  testing, resulting in a total cost saving of ~$150k/year •
-                  Performed First Article Inspection (FAI/FPI) on injected
-                  molded plastics and die cast aluminum to determine if
-                  parts have the correct dimensional tolerance and suitable
-                  surface finish for production{" "}
+                  testing, resulting in a total cost saving of ~$150k/year 
                 </li>
+              <li>                        Performed First Article Inspection (FAI/FPI) on injected
+                        molded plastics and die cast aluminum to determine if
+                        parts have the correct dimensional tolerance and suitable
+                  surface finish for production{" "}</li>
                 <li>
                   Received RMA products and performed root cause analysis
-                  (RCA) to diagnose and fix issues • Conducted thermal,
-                  impact, water and stress tests on cameras to determine
-                  performance of components and possible improvements{" "}
+                  (RCA) to diagnose and fix issues 
                 </li>
+              <li>Conducted thermal,
+                impact, water and stress tests on cameras to determine
+                  performance of components and possible improvements</li>
                 <li>
                   Designed, fabricated and tested manufacturing jigs and
                 fixtures
