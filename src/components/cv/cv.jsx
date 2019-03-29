@@ -81,11 +81,15 @@ class CV extends React.Component {
                 <div className="cv-date">Sept 2013 - Apr 2018</div>
               </div>
               <p>Description of Bachelors?</p>
-              <p>
-                Awards:• Louise McKinney Scholarship • (top 1.5-2% in Mech.
-                Eng. • NSERC USRA Research Award • Dean’s Research Award • U
-                of A Academic Excellence
-              </p>
+              <ul>
+                Awards:
+                <li>
+                  Louise McKinney Scholarship (top 1.5-2% in Mech. Eng.)
+                </li>
+                <li>NSERC USRA Research Award</li>
+                <li> Dean’s Research Award</li> 
+              <li>U of A Academic Excellence</li>
+              </ul>
             </li>
             <li>
               <div className="cv-icon">
@@ -124,13 +128,17 @@ class CV extends React.Component {
                 <h4>Leeds, United Kingdom</h4>
                 <div className="cv-date">May 2016 - Aug 2016</div>
               </div>
-              <p>
-                 • Designed, prototyped and tested a deployment mechanism for
-                a drone (octocopter) to release autonomous robots •
-                Mechanism designed to release multiple robots at different
-                times using a single servo motor to optimize weight and
-                power consumption
-              </p>
+              <ul>
+                <li>
+                  Designed, prototyped and tested a deployment mechanism for
+                  a drone (octocopter) to release autonomous robots
+                </li>
+                <li>
+                  Mechanism designed to release multiple robots at different
+                  times using a single servo motor to optimize weight and
+                  power consumption
+                </li>
+              </ul>
             </li>
             <li>
               <div className="cv-icon">
@@ -140,27 +148,34 @@ class CV extends React.Component {
                 <h3>Orthodontic Biomechanics Development Group </h3>
                 <h4>Research Co-op</h4>
                 <h4>Edmonton, Canada</h4>
-              <div className="cv-date">May - Aug 2015</div>
+                <div className="cv-date">May - Aug 2015</div>
               </div>
-            <p>• Researched, designed and assembled a dual
-          camera optical apparatus to measure the 3D deformation in
-          orthodontics • Purchased equipment and accessories based on
-          specification and budget • Coded in LabWindows/CVI to
-            communicate between hardware components</p>
+              <p>
+                • Researched, designed and assembled a dual camera optical
+                apparatus to measure the 3D deformation in orthodontics •
+                Purchased equipment and accessories based on specification
+                and budget • Coded in LabWindows/CVI to communicate between
+                hardware components
+              </p>
             </li>
           </ul>
         </div>
         <div className="cv-skills">
           <h1>Computer Skills</h1>
-          <p>
-            Design SolidWorks (CAD/Simulation) Analysis Ansys (FEA & CFD),
-            PTC Mathcad, SMath Hardware Integration NI LabWindows/CVI
-            (similar to LabVIEW) Microsoft Office Suite: Word, Excel,
-            PowerPoint Programming Languages MATLAB, R (Statistics), Ruby,
-            JavaScript, SQL Proficient in HTML, Python and C Product
-            Lifecycle Management: Agile Issue and Project Tracking: JIRA,
-            SCRUM
-          </p>
+          <div>
+            <div>
+              Design SolidWorks (CAD/Simulation) Analysis Ansys (FEA & CFD),
+              PTC Mathcad, SMath Hardware Integration NI LabWindows/CVI
+              (similar to LabVIEW) Microsoft Office Suite: Word, Excel,
+              PowerPoint
+            </div>
+            <div>
+              Programming Languages MATLAB, R (Statistics), Ruby,
+              JavaScript, SQL Proficient in HTML, Python and C Product
+              Lifecycle Management: Agile Issue and Project Tracking: JIRA,
+              SCRUM
+            </div>
+          </div>
         </div>
         <div className="cv-competitions">
           <h1>Competitions</h1>
