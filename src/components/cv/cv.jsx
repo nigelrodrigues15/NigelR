@@ -87,8 +87,8 @@ class CV extends React.Component {
                   Louise McKinney Scholarship (top 1.5-2% in Mech. Eng.)
                 </li>
                 <li>NSERC USRA Research Award</li>
-                <li> Dean’s Research Award</li> 
-              <li>U of A Academic Excellence</li>
+                <li> Dean’s Research Award</li>
+                <li>U of A Academic Excellence</li>
               </ul>
             </li>
             <li>
@@ -101,22 +101,30 @@ class CV extends React.Component {
                 <h4>Vancouver, Canada</h4>
                 <div className="cv-date">Jan 2017 - Aug 2017</div>
               </div>
-              <p>
-                • Recommended components based on performance and cost
-                testing, resulting in a total cost saving of ~$150k/year •
-                Performed First Article Inspection (FAI/FPI) on injected
-                molded plastics and die cast aluminum to determine if parts
-                have the correct dimensional tolerance and suitable surface
-                finish for production • Received RMA products and performed
-                root cause analysis (RCA) to diagnose and fix issues •
-                Conducted thermal, impact, water and stress tests on cameras
-                to determine performance of components and possible
-                improvements • Designed, fabricated and tested manufacturing
-                jigs and fixtures • Created extensive documentation for the
-                assembly & operation of the jig • Communicated with
-                manufacturers locally and overseas to modify and update OEM
-                parts and assemblies of orders around 25k/year
-              </p>
+              <ul>
+                <li>
+                  Recommended components based on performance and cost
+                  testing, resulting in a total cost saving of ~$150k/year •
+                  Performed First Article Inspection (FAI/FPI) on injected
+                  molded plastics and die cast aluminum to determine if
+                  parts have the correct dimensional tolerance and suitable
+                  surface finish for production{" "}
+                </li>
+                <li>
+                  Received RMA products and performed root cause analysis
+                  (RCA) to diagnose and fix issues • Conducted thermal,
+                  impact, water and stress tests on cameras to determine
+                  performance of components and possible improvements{" "}
+                </li>
+                <li>
+                  Designed, fabricated and tested manufacturing jigs and
+                fixtures
+                </li> <li>
+                  Created extensive documentation for the assembly &
+                  operation of the jig
+                </li> 
+              <li>Communicated with manufacturers locally and overseas to modify and update OEM parts and assemblies of orders around 25k/year</li>
+              </ul>
             </li>
             <li>
               <div className="cv-icon">
