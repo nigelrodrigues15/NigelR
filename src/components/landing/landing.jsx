@@ -3,6 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Particles from "react-particles-js";
 import Typed from "react-typed";
+import CVContainer from "../cv/cv_container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 
@@ -40,6 +41,9 @@ class Landing extends React.Component {
             </div>
           </Link>
           {/* Options go here */}
+        </div>
+        <div className="LandingCV">
+      <CVContainer />
         </div>
       </div>;
 
