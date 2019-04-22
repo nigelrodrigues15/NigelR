@@ -55,12 +55,12 @@ www.nigelr.ca
 
 - [ ] Landscape
 - [x] Portrait
-- [ ] City
+- [x] City
 - [ ] NightScape
 - [ ] Long Exposure
 - [ ] Black and White
 - [ ] Objects
-- [ ] Rooms
+- [x] Indoors
 - [ ] Color Grading Styles
 - [ ] More from Instagram
 
