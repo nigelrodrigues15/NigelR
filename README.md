@@ -54,7 +54,7 @@ www.nigelr.ca
 **Week 4**: Photography
 
 - [ ] Landscape
-- [ ] Portrait
+- [x] Portrait
 - [ ] City
 - [ ] NightScape
 - [ ] Long Exposure
