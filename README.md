@@ -29,8 +29,8 @@ www.nigelr.ca
 - [ ] Student Groups/Clubs
 - [ ] Competitions
 - [ ] Hackathons
-- [ ] Skills (Software)
-- [ ] Programming Languages
+- [x] Skills (Software)
+- [x] Programming Languages
 - [ ] Hobbies & Sports
 
 **Week 3**: Projects
