@@ -23,8 +23,8 @@ www.nigelr.ca
 
 **Week 2**: Personal CV
 
-- [ ] Education & Educational Awards
-- [ ] Work Experience
+- [x] Education & Educational Awards
+- [x] Work Experience
 - [ ] Extracirricular Projects (Links to Projects)
 - [ ] Student Groups/Clubs
 - [ ] Competitions
