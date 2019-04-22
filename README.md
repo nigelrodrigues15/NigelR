@@ -54,6 +54,7 @@ www.nigelr.ca
 **Week 4**: Photography
 
 - [ ] Landscape
+- [x] Nature
 - [x] Portrait
 - [x] City
 - [ ] NightScape
@@ -68,8 +69,8 @@ www.nigelr.ca
 
 ### Content
 - [ ] Landing Page
-- [ ] Curriculum Vitae
-- [ ] Photography
-- [ ] Projects
-- [ ] Contact Information
-- [ ] Travel
+- [x] Curriculum Vitae
+- [x] Photography
+- [x] Projects
+- [x] Contact Information
+- [x] Travel
