@@ -27,7 +27,7 @@ www.nigelr.ca
 - [x] Work Experience
 - [x] Extracirricular Projects (Links to Projects)
 - [ ] Student Groups/Clubs
-- [ ] Competitions
+- [x] Competitions
 - [ ] Hackathons
 - [x] Skills (Software)
 - [x] Programming Languages
