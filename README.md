@@ -25,7 +25,7 @@ www.nigelr.ca
 
 - [x] Education & Educational Awards
 - [x] Work Experience
-- [ ] Extracirricular Projects (Links to Projects)
+- [x] Extracirricular Projects (Links to Projects)
 - [ ] Student Groups/Clubs
 - [ ] Competitions
 - [ ] Hackathons
