@@ -40,7 +40,7 @@ www.nigelr.ca
 - [x] HABOO
 - [x] Reduced Gravity Experiments
 - [x] EcoCar
-- [ ] Stocs
+- [x] Stocs
 - [ ] Sentey
 - [ ] Watchie
 - [ ] Hackathon's
