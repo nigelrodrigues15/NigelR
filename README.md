@@ -39,7 +39,7 @@ www.nigelr.ca
 - [x] Glasses
 - [x] HABOO
 - [x] Reduced Gravity Experiments
-- [ ] EcoCar
+- [x] EcoCar
 - [ ] Stocs
 - [ ] Sentey
 - [ ] Watchie
