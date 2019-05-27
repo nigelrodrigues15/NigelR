@@ -35,7 +35,7 @@ www.nigelr.ca
 
 **Week 3**: Projects
 
-- [ ] Personal Website (Ruby/React)
+- [x] Personal Website (Ruby/React)
 - [ ] Glasses
 - [ ] HABOO
 - [ ] Reduced Gravity Experiments
