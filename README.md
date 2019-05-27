@@ -38,7 +38,7 @@ www.nigelr.ca
 - [x] Personal Website (Ruby/React)
 - [x] Glasses
 - [x] HABOO
-- [ ] Reduced Gravity Experiments
+- [x] Reduced Gravity Experiments
 - [ ] EcoCar
 - [ ] Stocs
 - [ ] Sentey
