@@ -28,7 +28,7 @@ www.nigelr.ca
 - [x] Extracirricular Projects (Links to Projects)
 - [ ] Student Groups/Clubs
 - [x] Competitions
-- [ ] Hackathons
+- [x] Hackathons
 - [x] Skills (Software)
 - [x] Programming Languages
 - [ ] Hobbies & Sports
