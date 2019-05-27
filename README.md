@@ -41,7 +41,7 @@ www.nigelr.ca
 - [x] Reduced Gravity Experiments
 - [x] EcoCar
 - [x] Stocs
-- [ ] Sentey
+- [x] Sentey
 - [ ] Watchie
 - [ ] Hackathon's
 - [ ] Chrome Extension's
