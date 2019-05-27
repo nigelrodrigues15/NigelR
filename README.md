@@ -31,7 +31,7 @@ www.nigelr.ca
 - [x] Hackathons
 - [x] Skills (Software)
 - [x] Programming Languages
-- [ ] Hobbies & Sports
+- [x] Hobbies & Sports
 
 **Week 3**: Projects
 
