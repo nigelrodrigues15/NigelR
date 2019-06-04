@@ -43,7 +43,7 @@ www.nigelr.ca
 - [x] Stocs
 - [x] Sentey
 - [x] Watchie
-- [ ] Hackathon's
+- [x] Hackathon's
 - [ ] Chrome Extension's
 - [ ] ME 260
 - [ ] ME 360
