@@ -42,7 +42,7 @@ www.nigelr.ca
 - [x] EcoCar
 - [x] Stocs
 - [x] Sentey
-- [ ] Watchie
+- [x] Watchie
 - [ ] Hackathon's
 - [ ] Chrome Extension's
 - [ ] ME 260
