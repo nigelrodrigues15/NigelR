@@ -46,7 +46,7 @@ www.nigelr.ca
 - [x] Hackathon's
 - [x] Chrome Extension's
 - [x] ME 260
-- [ ] ME 360
+- [x] ME 360
 - [ ] ME 460
 - [ ] ME 680
 - [ ] More...
