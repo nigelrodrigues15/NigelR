@@ -44,7 +44,7 @@ www.nigelr.ca
 - [x] Sentey
 - [x] Watchie
 - [x] Hackathon's
-- [ ] Chrome Extension's
+- [x] Chrome Extension's
 - [ ] ME 260
 - [ ] ME 360
 - [ ] ME 460
