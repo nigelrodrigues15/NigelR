@@ -45,7 +45,7 @@ www.nigelr.ca
 - [x] Watchie
 - [x] Hackathon's
 - [x] Chrome Extension's
-- [ ] ME 260
+- [x] ME 260
 - [ ] ME 360
 - [ ] ME 460
 - [ ] ME 680
