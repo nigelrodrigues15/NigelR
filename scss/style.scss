@@ -1,0 +1,52 @@
+// How to compile and watch scss
+// sass --watch sass/style.scss:css/style.css
+
+// Import contants (theme colors, etc)
+// @import "constants";
+
+// Import useful fonts
+@import 'https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,600,700';
+@import 'https://fonts.googleapis.com/css?family=Questrial:100,200,300,400,600,700';
+
+
+// Initialize theme variables
+$background-dark:  #111111;
+$background-light:  #eeeeee;
+// $dark-hover:  #171718;
+$dark-hover:  #060606;
+$placeholder: #8c8c8e;
+$robin-green: #21ce99;
+$robin-green-light: #1ae9aa;
+$actual-robin-red: #f45531;
+$robin-red: #f45531;
+// $robin-red: #E30000;
+$robin-red-light: #ff6340;
+// $robin-red-light: #f61010;
+$robin-white: #fff;
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+}
+body {
+    background-color: $background-light;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+#splash {
+  height: 100vh;
+  background-image: url('https://cdn.hovia.com/app/uploads/scientific-chalkboard-childrens-room-820x532.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+  display: grid;
+  grid-template-columns: 15vw 40vw 30vw 15vw;
+  grid-template-rows: 10vh 40vh 30vh 10vh 10vh;
+  grid-template-areas: 
+    ". . . menu"
+    ". . . ."
+    "title title title ."
+    "icon . social social";
+}
