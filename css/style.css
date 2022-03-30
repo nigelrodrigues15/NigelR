@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,600,700';
+@import 'https://fonts.googleapis.com/css?family=Questrial:100,200,300,400,600,700';
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+#splash {
+  height: 100vh;
+  background-image: url("https://cdn.hovia.com/app/uploads/scientific-chalkboard-childrens-room-820x532.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+  display: grid;
+  grid-template-columns: 15vw 40vw 30vw 15vw;
+  grid-template-rows: 10vh 40vh 30vh 10vh 10vh;
+  grid-template-areas: ". . . menu" ". . . ." "title title title ." "icon . social social";
+}
+
+/*# sourceMappingURL=style.css.map */
